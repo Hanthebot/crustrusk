@@ -485,7 +485,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "custom"
+      "custom",
+      "crustrusk"
     ],
     "pinned_symbol_libs": []
   },
@@ -528,6 +529,7 @@
       "netlist": "",
       "plot": "../gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
