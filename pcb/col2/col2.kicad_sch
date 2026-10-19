@@ -999,7 +999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Kailh_socket_MX"
+		(property "Footprint" "crustrusk:Kailh_socket_MX"
 			(at 44.45 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -1039,7 +1039,7 @@
 			(uuid "d2d3e136-1232-4b78-b2f4-7c3025e15223")
 		)
 		(instances
-			(project "crustrusk"
+			(project "col2"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "SW-1-0")
 					(unit 1)
@@ -1081,7 +1081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:Diode_TH_SMD_REVERSIBLE"
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
 			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -1143,7 +1143,7 @@
 			(uuid "c9080ba6-7e08-4260-9c39-2fa8d111809d")
 		)
 		(instances
-			(project "crustrusk"
+			(project "col2"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "D-1-0")
 					(unit 1)
@@ -1235,7 +1235,7 @@
 			(uuid "141096ec-ce96-425e-83aa-d16be4fff0d3")
 		)
 		(instances
-			(project "crustrusk"
+			(project "col2"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "C1")
 					(unit 1)
@@ -1275,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Kailh_socket_MX"
+		(property "Footprint" "crustrusk:Kailh_socket_MX"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1315,7 +1315,7 @@
 			(uuid "a40cd83a-b871-4aed-b7f0-bb43aadf7ad5")
 		)
 		(instances
-			(project "crustrusk"
+			(project "col2"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "SW-1-1")
 					(unit 1)
@@ -1357,7 +1357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:Diode_TH_SMD_REVERSIBLE"
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
 			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1419,7 +1419,7 @@
 			(uuid "74419043-81e5-47a4-8f78-79754f7eb455")
 		)
 		(instances
-			(project "crustrusk"
+			(project "col2"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "D-1-1")
 					(unit 1)

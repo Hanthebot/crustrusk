@@ -5679,7 +5679,7 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 34.4 41.1)
+		(start 34.4 41)
 		(end 34.4 58.599958)
 		(stroke
 			(width 0.05)
@@ -5690,7 +5690,7 @@
 	)
 	(gr_line
 		(start 135.15 41)
-		(end 34.4 41.1)
+		(end 34.4 41)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5700,7 +5700,7 @@
 	)
 	(gr_line
 		(start 135.15 58.6)
-		(end 34.4 58.599945)
+		(end 34.4 58.6)
 		(stroke
 			(width 0.05)
 			(type default)

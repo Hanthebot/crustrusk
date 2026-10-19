@@ -152,7 +152,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b695b97a-6cfb-46b6-a526-44665834356a")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "col2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -565,7 +565,7 @@
 			)
 		)
 	)
-	(footprint "custom:Kailh_socket_MX"
+	(footprint "crustrusk:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "1fef9f44-4c38-4a2c-bb47-912f1496373b")
 		(at 70.549005 49.14 90)
@@ -618,7 +618,7 @@
 		)
 		(path "/f5f27b24-b1ca-45ce-8176-2453da31ae41")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "col2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1100,7 +1100,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "custom:Diode_TH_SMD_REVERSIBLE"
+	(footprint "crustrusk:Diode_TH_SMD_REVERSIBLE"
 		(layer "F.Cu")
 		(uuid "22d83559-f2c7-4ac5-8211-91081740f0ad")
 		(at 55.379005 49.18 90)
@@ -1183,7 +1183,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b1e5578f-dc4e-4181-82d9-6e398508b81a")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "col2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1686,7 +1686,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "custom:Kailh_socket_MX"
+	(footprint "crustrusk:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "b53eb2c3-90e9-44a8-8685-9d2450e27629")
 		(at 51.549005 49.14 90)
@@ -1739,7 +1739,7 @@
 		)
 		(path "/0ed4fb05-d162-47ee-8055-fd39a63549f2")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "col2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2221,7 +2221,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "custom:Diode_TH_SMD_REVERSIBLE"
+	(footprint "crustrusk:Diode_TH_SMD_REVERSIBLE"
 		(layer "F.Cu")
 		(uuid "b9cabbb7-d985-47f6-9b30-93b816386d4c")
 		(at 74.379005 49.18 90)
@@ -2304,7 +2304,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/fb11ba89-884e-4662-a2d0-a2532b5aefda")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "col2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2665,7 +2665,7 @@
 	)
 	(gr_line
 		(start 82.75 58.6)
-		(end 34.4 58.599958)
+		(end 34.4 58.6)
 		(stroke
 			(width 0.05)
 			(type default)

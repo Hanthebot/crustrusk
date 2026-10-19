@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "crustrusk.kicad_pro",
+    "filename": "col4.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -671,8 +671,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "crustrusk.kicad_sch",
-        "name": "crustrusk",
+        "filename": "col4.kicad_sch",
+        "name": "col4",
         "uuid": "9e72c485-61d0-44fa-96a5-46ca12df99d7"
       }
     ],
