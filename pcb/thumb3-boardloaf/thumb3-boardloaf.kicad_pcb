@@ -87,7 +87,7 @@
 			(outputdirectory "../gerber/")
 		)
 	)
-	(footprint "custom:Diode_TH_SMD_REVERSIBLE"
+	(footprint "crustrusk:Diode_TH_SMD_REVERSIBLE"
 		(layer "F.Cu")
 		(uuid "48e39f02-48bc-46ad-ae2c-e9193d3c577c")
 		(at 43.449961 88.64 180)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -0.313125 0)
+			(at 0 -0.313125 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d360278-809a-470d-be32-ff2b96288a67")
@@ -118,7 +118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b8a58fb-6062-415d-b22f-d3d65ae36a1c")
@@ -130,7 +130,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "595f3b17-8891-4a55-80dd-66630cf7ebf3")
@@ -146,7 +146,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d55ff08f-88bf-4b83-816d-171e9151fbd3")
+			(uuid "22c7535b-f7ac-4cc9-a553-5ac8ed15de15")
 			(effects
 				(font
 					(size 1 1)
@@ -159,7 +159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "294a815a-b201-4b25-b6cd-2ffa84b6ff28")
+			(uuid "7032a5fb-a1ea-474b-b473-5b70badd693f")
 			(effects
 				(font
 					(size 1 1)
@@ -170,7 +170,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/47d5e88c-1c10-4c7a-95ad-3e035ef9a45a")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -391,7 +391,7 @@
 			(uuid "f5ec2b69-1545-4f97-837d-a336e033c4ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.12 0)
+			(at 0 2.12 180)
 			(layer "B.SilkS")
 			(uuid "8bfdd3c2-b896-4790-9900-7e6e9e9ea5b7")
 			(effects
@@ -509,14 +509,14 @@
 			)
 		)
 	)
-	(footprint "custom:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+	(footprint "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4e455f87-c71f-4a10-b046-eaca0583065e")
 		(at 53.574961 43.83 180)
 		(descr "JST PH series connector, S6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "C0"
-			(at 5 -2.55 0)
+			(at 5 -2.55 180)
 			(layer "F.SilkS")
 			(uuid "5e48a0f1-13a1-41cb-9cdb-86e0691f833c")
 			(effects
@@ -527,7 +527,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 5 7.45 0)
+			(at 5 7.45 180)
 			(layer "F.Fab")
 			(uuid "d3cf0cbf-6821-43d0-8f82-940428a6aff7")
 			(effects
@@ -538,7 +538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e4b8fb04-5dd5-4fb5-a4ca-5bf1a8bf307b")
@@ -549,7 +549,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b1ecafd-385c-4e51-8d36-0c692a7c545e")
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b29dcc11-da41-43b4-8039-60485d9be670")
@@ -574,7 +574,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8a770548-06a9-455e-9c24-9ad866d4b7d4")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1223,7 +1223,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 4.68 0)
+			(at 5 4.68 180)
 			(layer "B.Fab")
 			(uuid "b16324fc-cebf-4a53-938a-881849d0a805")
 			(effects
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 2.5 0)
+			(at 5 2.5 180)
 			(layer "F.Fab")
 			(uuid "470bc757-df93-4679-8332-e6847b941cdf")
 			(effects
@@ -1392,7 +1392,7 @@
 			)
 		)
 	)
-	(footprint "custom:Diode_TH_SMD_REVERSIBLE"
+	(footprint "crustrusk:Diode_TH_SMD_REVERSIBLE"
 		(layer "F.Cu")
 		(uuid "61ed9154-80fd-4d4b-9599-7f18ced279a4")
 		(at 45.489959 69.54 180)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -0.313125 0)
+			(at 0 -0.313125 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ebd1146-505a-45a5-a819-025720a35fa6")
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c7a83cd-6011-4220-af36-27bb222df8d3")
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48bdfca6-4c4d-41de-8ca7-7129fb05d572")
@@ -1451,7 +1451,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef247987-7617-4312-b354-8ef92529a0f0")
+			(uuid "5db4eaeb-4f32-4e67-a043-9e845e885ced")
 			(effects
 				(font
 					(size 1 1)
@@ -1464,7 +1464,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39fcf028-8298-4a0a-aaee-3430cffbbc1a")
+			(uuid "345a7d86-5faa-4329-9998-6a38de57ecd0")
 			(effects
 				(font
 					(size 1 1)
@@ -1475,7 +1475,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/3b6859c8-6e4f-42c8-9cb3-3f62adf97cd7")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1696,7 +1696,7 @@
 			(uuid "0d18ae6f-e3a8-42a2-b6be-d263cc4c20ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.12 0)
+			(at 0 2.12 180)
 			(layer "B.SilkS")
 			(uuid "e5f7ed9a-0d5c-4f17-9153-4da963345791")
 			(effects
@@ -1814,7 +1814,7 @@
 			)
 		)
 	)
-	(footprint "custom:Diode_TH_SMD_REVERSIBLE"
+	(footprint "crustrusk:Diode_TH_SMD_REVERSIBLE"
 		(layer "F.Cu")
 		(uuid "79639964-9a8f-4197-9cd5-c9e129c537cc")
 		(at 48.599961 50.49 180)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -0.313125 0)
+			(at 0 -0.313125 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49f2e92d-737c-4357-b191-732ca6c98739")
@@ -1845,7 +1845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1044a0d-733e-4cee-99b7-8feac4b6696f")
@@ -1857,7 +1857,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69ca19fa-9f11-4d35-9902-605eb091ad13")
@@ -1873,7 +1873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f611dfa1-af65-40ee-8010-bb7af7fdf670")
+			(uuid "0901c165-75d6-4b25-ae86-5ef1dfa1614b")
 			(effects
 				(font
 					(size 1 1)
@@ -1886,7 +1886,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0532bbe-6d0d-4b78-acde-dbb09514d698")
+			(uuid "9b13ce41-0f88-4140-9ec4-b4dc3a5b2661")
 			(effects
 				(font
 					(size 1 1)
@@ -1897,7 +1897,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e6a2fc8b-10f7-4e89-867d-5cf55ba31d15")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2118,7 +2118,7 @@
 			(uuid "2bb4ba0c-80e8-4149-8496-8b6c454490a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.12 0)
+			(at 0 2.12 180)
 			(layer "B.SilkS")
 			(uuid "82ca4506-106c-4d64-8d6d-121e96b3b2c7")
 			(effects
@@ -2236,7 +2236,7 @@
 			)
 		)
 	)
-	(footprint "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+	(footprint "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 		(layer "F.Cu")
 		(uuid "ee99772c-027f-4e46-8dc5-f021e9768cc5")
 		(at 45.509961 73.35 180)
@@ -2290,7 +2290,7 @@
 		)
 		(path "/8756a5ab-e29f-42ea-9648-c658d40d3a4e")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3170,7 +3170,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+	(footprint "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 		(layer "F.Cu")
 		(uuid "f89f3a99-0b2f-48ae-844d-bf1d5d68bf10")
 		(at 48.509961 54.35 180)
@@ -3224,7 +3224,7 @@
 		)
 		(path "/e52551ae-c7c6-4faf-8121-96d2cd577a6b")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4104,7 +4104,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+	(footprint "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 		(layer "F.Cu")
 		(uuid "fc6892e3-bd8a-437c-8e2b-933b08c32dde")
 		(at 43.509961 92.35 180)
@@ -4158,7 +4158,7 @@
 		)
 		(path "/67b53286-264c-4c34-aa34-e6679776b192")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "thumb3-boardloaf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5701,7 +5701,6 @@
 		(uuid "c57a9a2a-f6fb-4eb4-afa5-9413fd88bcb2")
 	)
 	(zone
-		(net "GND")
 		(layers "F.Cu" "B.Cu")
 		(uuid "902a308d-8364-440c-a613-1beedb401211")
 		(hatch edge 0.5)
@@ -5721,6 +5720,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 47.938217 96.556968) (xy 47.996079 96.596131) (xy 48.023583 96.660359) (xy 48.02446 96.67508)
 				(xy 48.02446 97.124837) (xy 48.004775 97.191876) (xy 47.951971 97.237631) (xy 47.882813 97.247575)
@@ -5731,6 +5731,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 57.3425 35.145185) (xy 57.388255 35.197989) (xy 57.399461 35.2495) (xy 57.399461 48.505901)
 				(xy 57.379776 48.57294) (xy 57.326972 48.618695) (xy 57.257814 48.628639) (xy 57.194258 48.599614)
@@ -6355,6 +6356,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 37.847754 93.290389) (xy 37.860716 93.296086) (xy 38.007169 93.370708) (xy 38.007172 93.370709)
 				(xy 38.089609 93.397494) (xy 38.172049 93.42428) (xy 38.251352 93.43684) (xy 38.343274 93.4514)
@@ -6369,6 +6371,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 37.276794 91.954915) (xy 37.332727 91.996787) (xy 37.357144 92.062251) (xy 37.355933 92.090495)
 				(xy 37.328561 92.263312) (xy 37.328561 92.436687) (xy 37.355681 92.607913) (xy 37.409251 92.772788)
@@ -6382,6 +6385,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 49.938217 77.556968) (xy 49.996079 77.596131) (xy 50.023583 77.660359) (xy 50.02446 77.67508)
 				(xy 50.02446 78.124837) (xy 50.004775 78.191876) (xy 49.951971 78.237631) (xy 49.882813 78.247575)
@@ -6392,6 +6396,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 39.847754 74.290389) (xy 39.860716 74.296086) (xy 40.007169 74.370708) (xy 40.007172 74.370709)
 				(xy 40.089609 74.397494) (xy 40.172049 74.42428) (xy 40.251352 74.43684) (xy 40.343274 74.4514)
@@ -6406,6 +6411,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 39.303686 72.86802) (xy 39.35962 72.909891) (xy 39.384037 72.975356) (xy 39.378284 73.022519)
 				(xy 39.355681 73.092084) (xy 39.328561 73.263312) (xy 39.328561 73.436687) (xy 39.355681 73.607913)
@@ -6419,6 +6425,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 52.938217 58.556968) (xy 52.996079 58.596131) (xy 53.023583 58.660359) (xy 53.02446 58.67508)
 				(xy 53.02446 59.124837) (xy 53.004775 59.191876) (xy 52.951971 59.237631) (xy 52.882813 59.247575)
@@ -6429,6 +6436,7 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
+			(island yes)
 			(pts
 				(xy 42.847754 55.290389) (xy 42.860716 55.296086) (xy 43.007169 55.370708) (xy 43.007172 55.370709)
 				(xy 43.089609 55.397494) (xy 43.172049 55.42428) (xy 43.251352 55.43684) (xy 43.343274 55.4514)
@@ -6443,6 +6451,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 39.151544 96.555303) (xy 39.272395 96.587684) (xy 39.332055 96.624049) (xy 39.362584 96.686896)
 				(xy 39.354862 96.754911) (xy 39.308801 96.866112) (xy 39.308801 96.866113) (xy 39.308801 96.866114)
@@ -6454,6 +6463,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 41.151544 77.555303) (xy 41.272395 77.587684) (xy 41.332055 77.624049) (xy 41.362584 77.686896)
 				(xy 41.354862 77.754911) (xy 41.308801 77.866112) (xy 41.308801 77.866113) (xy 41.308801 77.866114)
@@ -6465,6 +6475,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 44.151544 58.555303) (xy 44.272395 58.587684) (xy 44.332055 58.624049) (xy 44.362584 58.686896)
 				(xy 44.354862 58.754911) (xy 44.308801 58.866112) (xy 44.308801 58.866113) (xy 44.308801 58.866114)
@@ -6476,6 +6487,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 57.3425 35.145185) (xy 57.388255 35.197989) (xy 57.399461 35.2495) (xy 57.399461 55.015501)
 				(xy 57.379776 55.08254) (xy 57.326972 55.128295) (xy 57.275461 55.139501) (xy 56.794461 55.139501)
@@ -7112,6 +7124,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 49.292614 93.309465) (xy 49.332871 93.366571) (xy 49.335864 93.436376) (xy 49.331682 93.449902)
 				(xy 49.30087 93.532515) (xy 49.300869 93.532517) (xy 49.294462 93.592117) (xy 49.294461 93.592136)
@@ -7126,6 +7139,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 54.0925 77.660185) (xy 54.138255 77.712989) (xy 54.149461 77.7645) (xy 54.149461 82.566324)
 				(xy 54.129776 82.633363) (xy 54.113142 82.654005) (xy 52.549463 84.217683) (xy 52.549461 84.217686)
@@ -7143,6 +7157,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 51.292614 74.309465) (xy 51.332871 74.366571) (xy 51.335864 74.436376) (xy 51.331682 74.449902)
 				(xy 51.30087 74.532515) (xy 51.300869 74.532517) (xy 51.294462 74.592117) (xy 51.294461 74.592136)
@@ -7157,6 +7172,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 57.3425 58.660185) (xy 57.388255 58.712989) (xy 57.399461 58.7645) (xy 57.399461 62.816324)
 				(xy 57.379776 62.883363) (xy 57.363142 62.904005) (xy 54.249463 66.017683) (xy 54.249461 66.017686)
@@ -7174,6 +7190,7 @@
 		)
 		(filled_polygon
 			(layer "B.Cu")
+			(island yes)
 			(pts
 				(xy 54.292614 55.309465) (xy 54.332871 55.366571) (xy 54.335864 55.436376) (xy 54.331682 55.449902)
 				(xy 54.30087 55.532515) (xy 54.300869 55.532517) (xy 54.294462 55.592117) (xy 54.294461 55.592136)
