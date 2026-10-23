@@ -1083,7 +1083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:Diode_TH_SMD_REVERSIBLE"
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
 			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -1145,7 +1145,7 @@
 			(uuid "2959b6b2-0221-4d42-83f1-cdc1de5453c8")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "D-0-1")
 					(unit 1)
@@ -1187,7 +1187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:Diode_TH_SMD_REVERSIBLE"
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
 			(at 44.45 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1249,7 +1249,7 @@
 			(uuid "7d68b19a-0d09-4219-bd51-8cf85037edb7")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "D-0-0")
 					(unit 1)
@@ -1289,7 +1289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 			(at 49.53 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -1329,7 +1329,7 @@
 			(uuid "954da2b5-2b0c-4260-acd3-1de8113e46da")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "SW-0-0")
 					(unit 1)
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 			(at 49.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1409,7 +1409,7 @@
 			(uuid "0e8f6974-1729-4401-8ead-04a76960b0ac")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "SW-0-1")
 					(unit 1)
@@ -1449,7 +1449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
 			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1501,7 +1501,7 @@
 			(uuid "deb8e5a8-557a-478d-bc1f-2bf15cbaad37")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "C0")
 					(unit 1)
@@ -1541,7 +1541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
 			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1581,7 +1581,7 @@
 			(uuid "aba77798-2f35-4984-b5ca-dd52c5d6db27")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "SW-0-2")
 					(unit 1)
@@ -1623,7 +1623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:Diode_TH_SMD_REVERSIBLE"
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
 			(at 44.45 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1685,7 +1685,7 @@
 			(uuid "6f2c32b2-8908-47d3-ae2c-797f15219bf4")
 		)
 		(instances
-			(project "crustrusk"
+			(project "thumb3-boardloaf"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "D-0-2")
 					(unit 1)
