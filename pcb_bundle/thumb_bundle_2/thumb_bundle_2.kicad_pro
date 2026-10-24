@@ -70,28 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "malformed_courtyard|50393479|56340703|227c911b-de5d-4ddc-9544-8a78fe3888df|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|52142332|56032333|227c911b-de5d-4ddc-9544-8a78fe3888df|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|52980842|71014336|227c911b-de5d-4ddc-9544-8a78fe3888df|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|34959021|49355475|7aa5ab1d-d87a-49cf-b4bf-0c24c4160d28|a758cbbc-23b2-4724-b669-5f21df879e2c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|39532358|32287551|b8bbe2fc-da2c-41a0-b4eb-8c5dd23a4d44|a8a7af03-c631-49c0-bbf8-da5906b54eea",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
