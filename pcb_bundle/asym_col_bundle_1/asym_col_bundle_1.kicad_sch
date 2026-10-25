@@ -1,0 +1,6472 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fa631881-f1cb-4578-af30-5432abc1d3e5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 40.8602 106.4297)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01aae9ec-b669-4a51-b122-de5e359eedbb")
+	)
+	(junction
+		(at 167.64 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c9df55-541b-40d5-a1dd-e2590f59fc31")
+	)
+	(junction
+		(at 92.71 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0973a6e8-ada9-40db-bf15-9a784f9ac841")
+	)
+	(junction
+		(at 97.79 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c396017-21e8-4053-80c0-7e6c526fe0df")
+	)
+	(junction
+		(at 53.5602 44.1997)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1648f9-2491-4493-978c-6de8a365cb3c")
+	)
+	(junction
+		(at 224.79 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1186166a-46be-40a2-90c0-c547ce0e8ccc")
+	)
+	(junction
+		(at 110.49 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "164ad90b-19fa-417b-b11e-47fe4d3ee0da")
+	)
+	(junction
+		(at 110.49 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d24fd87-baca-4c43-86d9-6bac38fbb99f")
+	)
+	(junction
+		(at 58.42 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bd5cf64-6afe-49c4-88f4-3cb5f38e48d1")
+	)
+	(junction
+		(at 207.01 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fdf6572-f08e-4188-996b-1d94f2e2dd76")
+	)
+	(junction
+		(at 38.3202 108.9697)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a553c8-35f3-45db-abcd-1754889315c7")
+	)
+	(junction
+		(at 53.5602 60.7097)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ad9b072-e66f-4954-b73f-6fcf5f7e4282")
+	)
+	(junction
+		(at 110.49 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d1370e-362f-4afd-aa46-a5388730679f")
+	)
+	(junction
+		(at 167.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52dff665-a7c2-4bfc-b105-a142a2df0617")
+	)
+	(junction
+		(at 154.94 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6276fc-fed3-4f6b-aa23-f93c06798374")
+	)
+	(junction
+		(at 90.17 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc400c3-a9a0-4a51-aa2f-360911ba8aee")
+	)
+	(junction
+		(at 209.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1dc9d8-c9e8-47d5-961f-46f5981e6294")
+	)
+	(junction
+		(at 149.86 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6027ac1b-f6b1-4f76-b19e-146a0456ccd7")
+	)
+	(junction
+		(at 95.25 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d5097d-cebc-487d-b849-24f8778fbe12")
+	)
+	(junction
+		(at 147.32 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff2a10d-d276-46f4-9c15-5ccc225b108d")
+	)
+	(junction
+		(at 43.4002 103.8897)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71fde02a-067e-4e9a-ab59-5bf2a05bc870")
+	)
+	(junction
+		(at 48.26 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72df490a-fc69-4d49-ae87-b6c4228e9f4d")
+	)
+	(junction
+		(at 45.72 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7762d88c-92e2-4615-bbc2-8f46cbd7eeb1")
+	)
+	(junction
+		(at 100.33 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919f2b98-a831-4324-828c-b79cd22677c4")
+	)
+	(junction
+		(at 110.49 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951f31ab-3438-4295-8837-0523506b9f8d")
+	)
+	(junction
+		(at 53.5602 116.5897)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961a0b34-4e86-4f3f-8a71-2e0e5a9853c5")
+	)
+	(junction
+		(at 224.79 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983a54e2-720f-456b-8958-f8d4503279db")
+	)
+	(junction
+		(at 167.64 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a37021d-379e-474c-bc09-ecaef93e39de")
+	)
+	(junction
+		(at 152.4 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5059250-dd68-4738-8f2b-eb710d10d13c")
+	)
+	(junction
+		(at 53.5602 94.9997)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a835537f-b180-4949-94ad-88c8842b1d34")
+	)
+	(junction
+		(at 58.42 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad8259d-a647-4e7a-882f-169254b918d5")
+	)
+	(junction
+		(at 110.49 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98b6205-fc52-4903-a32f-62f98f1393c2")
+	)
+	(junction
+		(at 35.7802 111.5097)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb53d67a-5ad2-4330-909f-1d74c5357fd4")
+	)
+	(junction
+		(at 53.5602 78.4897)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95c1b2c-b3a5-4106-adbc-d9eab08c58f1")
+	)
+	(junction
+		(at 224.79 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df075ecd-f576-43f9-a50e-d16cc3a61706")
+	)
+	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc4387c-e1ce-454e-8d94-8dd7011fc5dd")
+	)
+	(junction
+		(at 33.2402 114.0497)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e362ca78-258e-4b21-903f-ddf45521c184")
+	)
+	(junction
+		(at 204.47 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f4d8d8-91fc-428e-bdab-e73ab7e97c34")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030859b2-015c-4972-a57c-2cd72e86624e")
+	)
+	(wire
+		(pts
+			(xy 53.5602 94.9997) (xy 53.5602 116.5897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a8e29e-c633-4738-9bea-d59e8873f6c6")
+	)
+	(wire
+		(pts
+			(xy 53.5602 116.5897) (xy 29.4302 116.5897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f7bda9-acc2-48ef-ac1d-25ac72c6ccef")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199e5b34-8371-4f79-ab1f-708e704372d7")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e20219a-21d5-43e8-9abd-f053b2e782e7")
+	)
+	(wire
+		(pts
+			(xy 48.26 144.78) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eac1118-1479-4899-9708-1c2c169afaba")
+	)
+	(wire
+		(pts
+			(xy 40.8602 86.1097) (xy 40.8602 106.4297)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fecf87b-f85e-4fb9-953c-baab0d964c6b")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 224.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203a0e2e-9ce9-4858-846f-3a672f60cc52")
+	)
+	(wire
+		(pts
+			(xy 58.42 153.67) (xy 58.42 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3760a380-d2cb-40b5-9f38-349bf5c23368")
+	)
+	(wire
+		(pts
+			(xy 48.26 161.29) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b02ec9-a34c-4fcc-a6a6-82815f2864be")
+	)
+	(wire
+		(pts
+			(xy 57.3702 116.5897) (xy 53.5602 116.5897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a36a050-8178-43dd-8c21-842ebc55d397")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7f9516-d45b-44bc-af29-f422d9f9b591")
+	)
+	(wire
+		(pts
+			(xy 58.42 187.96) (xy 34.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2b4557-bd60-468e-9d2b-8244fc6b3eb5")
+	)
+	(wire
+		(pts
+			(xy 167.64 29.21) (xy 167.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b934d72-ff33-41d3-9cf6-465f238624aa")
+	)
+	(wire
+		(pts
+			(xy 200.66 110.49) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccfbe16-fe97-4128-941a-40df988d6923")
+	)
+	(wire
+		(pts
+			(xy 38.3202 68.3297) (xy 43.4002 68.3297)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecad60e-db79-415d-b474-d35e124b2086")
+	)
+	(wire
+		(pts
+			(xy 143.51 107.95) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449394db-9872-4aa0-b7b8-7012eb9fd214")
+	)
+	(wire
+		(pts
+			(xy 86.36 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d682a8-7dfd-4bc8-a43a-9f605398cd76")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474c5dc0-49f0-458b-b8f5-dd14eadea502")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fd85ef-3427-4bb7-ac91-58bf8ef77cac")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49116b3e-ddd2-444a-9635-c48b4cf7bce9")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 214.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ec00e5-c509-41cf-835d-9fda0c5afb84")
+	)
+	(wire
+		(pts
+			(xy 45.72 144.78) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec54926-bf14-47ff-8c77-d4f052778139")
+	)
+	(wire
+		(pts
+			(xy 200.66 113.03) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa39cba-99b6-438b-a1d4-eb888f3fc1b6")
+	)
+	(wire
+		(pts
+			(xy 34.29 182.88) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517743dc-f47f-4cb7-926a-dba3aa91a5c3")
+	)
+	(wire
+		(pts
+			(xy 43.4002 103.8897) (xy 29.4302 103.8897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56acceb6-fd0a-4509-8b47-0bf933c72cf6")
+	)
+	(wire
+		(pts
+			(xy 224.79 118.11) (xy 200.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea5eaea-640f-4227-bfaf-e2cbfe648578")
+	)
+	(wire
+		(pts
+			(xy 29.4302 108.9697) (xy 57.3702 108.9697)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef3c1c8-4cf5-479f-941b-dc456a1c6539")
+	)
+	(wire
+		(pts
+			(xy 110.49 44.45) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b27f71-b2f7-4e4a-886e-0670bc2e2598")
+	)
+	(wire
+		(pts
+			(xy 90.17 35.56) (xy 100.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f4ad7d-7c57-4aeb-bb35-5d816b14971b")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6945426f-7f5c-4e50-8e7b-46512702368a")
+	)
+	(wire
+		(pts
+			(xy 43.4002 102.6197) (xy 43.4002 103.8897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d99cc46-4818-410b-8b53-4b7fcd99cc0f")
+	)
+	(wire
+		(pts
+			(xy 90.17 35.56) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb9e5fd-4ab9-4b20-aa6e-f92ac62ebed9")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b24536-018f-4aec-90a9-f08c1a6edd77")
+	)
+	(wire
+		(pts
+			(xy 33.2402 35.3097) (xy 43.4002 35.3097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f6f760-8f66-4f90-a4db-8904507a9e39")
+	)
+	(wire
+		(pts
+			(xy 152.4 69.85) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75aaea7b-6579-4b99-b436-d9045d374686")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf32e95-bcc6-4dda-8887-4f4866535145")
+	)
+	(wire
+		(pts
+			(xy 224.79 29.21) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c76805f-395e-42b9-b6c8-e78d67cbab5c")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dffe098-34b7-46e1-b012-4d58a21ba29b")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822e0d16-6002-4c7b-8a50-e78bcc01af55")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 224.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842a1317-f0ac-4b04-93cd-ceab7393b1d5")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8458b434-12cc-48ea-b5f3-b545e37dc49a")
+	)
+	(wire
+		(pts
+			(xy 62.23 187.96) (xy 58.42 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b9cdfb-620b-49b5-9ab2-c15c23fee37e")
+	)
+	(wire
+		(pts
+			(xy 58.42 137.16) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885d976c-2251-4b92-a6a7-263c5c25d3f3")
+	)
+	(wire
+		(pts
+			(xy 207.01 53.34) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891db86a-a424-49dc-81b7-ec26566e36f9")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c783c3e-a197-4e01-a8e6-e0c42fda6b5b")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc7bc75-a623-4ed5-af1d-ebea57afd99b")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dad5ccd-9201-499a-aa99-2516b94f3758")
+	)
+	(wire
+		(pts
+			(xy 167.64 118.11) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9142789d-8c4c-4b29-bc8f-286035e6d815")
+	)
+	(wire
+		(pts
+			(xy 224.79 62.23) (xy 224.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9223de98-4930-4733-9d1d-816f13f6fee9")
+	)
+	(wire
+		(pts
+			(xy 29.4302 106.4297) (xy 57.3702 106.4297)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935a6a28-c166-4006-a730-a9cc9afae281")
+	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d9a040-f608-4643-9810-2edbcb226ff6")
+	)
+	(wire
+		(pts
+			(xy 53.5602 27.6897) (xy 53.5602 44.1997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9869915c-f83f-4ebc-bf55-6db2807417a4")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bc8102-a4a6-4317-bc0f-2cdc3f0a68e4")
+	)
+	(wire
+		(pts
+			(xy 53.5602 78.4897) (xy 53.5602 94.9997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2d5442-1c6d-4b50-ac00-353c23d6c84f")
+	)
+	(wire
+		(pts
+			(xy 29.4302 114.0497) (xy 57.3702 114.0497)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0cc9c5-09eb-4cbf-a2f8-95f409d8a702")
+	)
+	(wire
+		(pts
+			(xy 57.3702 103.8897) (xy 43.4002 103.8897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00d0672-85cf-4440-97b8-68d669e46419")
+	)
+	(wire
+		(pts
+			(xy 38.3202 68.3297) (xy 38.3202 108.9697)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b172ba0c-769b-447c-b658-bb38f442eff5")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62dbd33-9fd0-4834-b8cd-384980e284f1")
+	)
+	(wire
+		(pts
+			(xy 40.8602 86.1097) (xy 43.4002 86.1097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c0cd8a-5b9c-4366-939e-d563d3b8499e")
+	)
+	(wire
+		(pts
+			(xy 53.5602 44.1997) (xy 53.5602 60.7097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba67ba77-7563-4c00-a94e-b2173a5b7519")
+	)
+	(wire
+		(pts
+			(xy 33.2402 35.3097) (xy 33.2402 114.0497)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbb367f-cea4-4f4d-84c6-1f906f5e8789")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca42424-d69e-468e-9706-67f689d326fc")
+	)
+	(wire
+		(pts
+			(xy 86.36 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf62da6b-ecd9-42e5-bf8a-71f2dcf29777")
+	)
+	(wire
+		(pts
+			(xy 29.4302 111.5097) (xy 57.3702 111.5097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c188eada-6d08-439c-8a2c-1200e6371d56")
+	)
+	(wire
+		(pts
+			(xy 35.7802 51.8197) (xy 43.4002 51.8197)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c236dade-84c2-4bf4-9d3b-4ba50650b128")
+	)
+	(wire
+		(pts
+			(xy 200.66 115.57) (xy 228.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27d3b6c-d1f0-4e23-902e-72716263648b")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c688c002-5bae-47d2-9c68-ef4795360c70")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2c576a-889f-4ced-8d23-04d42bf56805")
+	)
+	(wire
+		(pts
+			(xy 86.36 109.22) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa2d2d5-76f2-4f28-be67-b661a3e8b29f")
+	)
+	(wire
+		(pts
+			(xy 207.01 53.34) (xy 207.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24c1cb4-d314-49bb-8d67-28d0c1d60693")
+	)
+	(wire
+		(pts
+			(xy 35.7802 51.8197) (xy 35.7802 111.5097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d280dc97-87d9-41d5-a298-48190c491b9b")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2db1312-0628-4885-b640-9c943c0e6079")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 204.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3411d03-330f-4982-967f-e0ac3bcce048")
+	)
+	(wire
+		(pts
+			(xy 152.4 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f86125-2847-4aab-ba08-5d5da7048c8b")
+	)
+	(wire
+		(pts
+			(xy 34.29 185.42) (xy 62.23 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4254488-668f-4414-977d-c597b1d0d32c")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c4791-483b-4827-be52-1e7c1354cd62")
+	)
+	(wire
+		(pts
+			(xy 110.49 27.94) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58af576-999f-40ed-9b5b-eda912123a1d")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb052f4-a022-443f-85e6-b7e05e5287f1")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5157b97-7ad5-4ed8-acea-c793d3939220")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 214.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3c90fe-34fe-4f82-916e-98a5cc9a0056")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c2093e-e0f8-48a2-888b-36cc55e2659a")
+	)
+	(wire
+		(pts
+			(xy 53.5602 60.7097) (xy 53.5602 78.4897)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe4ea92-b5e5-4770-93fa-8403b7c321a6")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc288a00-a9e2-4f11-aa03-77cfe32502ca")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff23249b-30d0-477d-9f6b-c53be11ab839")
+	)
+	(global_label "ROW0-2"
+		(shape output)
+		(at 114.3 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05e4964c-dc38-4f43-ac1a-42c3a61cec9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3285 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1-2"
+		(shape output)
+		(at 114.3 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b15a6c6-83c8-4ef6-8b16-2a5fc5a65fd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3285 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0-4"
+		(shape output)
+		(at 228.6 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19e442ba-8f65-4b57-acd1-2ccaf32c2703")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.6285 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3-5"
+		(shape output)
+		(at 34.29 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24ff4710-f23c-4659-9039-16f8127e3a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3185 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2-1"
+		(shape output)
+		(at 57.3702 108.9697 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cc43501-1bcd-4a55-aaf3-80dd22619318")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3987 108.9697 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2-3"
+		(shape output)
+		(at 171.45 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32082884-92c2-4b1c-85d5-6e39d26ca7d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.4785 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1-5"
+		(shape output)
+		(at 62.23 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32eb878b-2176-4886-822e-301c053b1f97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2585 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 62.23 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "430209d0-587a-4b6e-881e-c1d57d8c238e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.0533 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1-1"
+		(shape output)
+		(at 57.3702 111.5097 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fbd01d0-7a41-4b51-a71a-cd36d6635b10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3987 111.5097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2-4"
+		(shape output)
+		(at 228.6 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5271847a-152b-414f-86ac-762807636779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.6285 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW4-5"
+		(shape output)
+		(at 34.29 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52906f4d-c4f3-414b-a8ea-cf27a981503a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3185 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3-2"
+		(shape output)
+		(at 114.3 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d3480f6-fb65-49c3-b203-629448a6821e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3285 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1-3"
+		(shape output)
+		(at 171.45 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71be1218-6f35-4967-8bae-65984ef222e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.4785 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW4-2"
+		(shape output)
+		(at 114.3 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75ff5037-2b1d-4a95-ba75-120f2b4d8e43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3285 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2-2"
+		(shape output)
+		(at 114.3 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "798a13f7-40db-4bf4-acfc-8dc7a7c058fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3285 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW4-4"
+		(shape output)
+		(at 200.66 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c1d5593-5122-4307-a51d-e1722e1f6d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.6885 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0-3"
+		(shape output)
+		(at 171.45 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91914545-e944-4f14-bd91-f2115582230a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.4785 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW4-1"
+		(shape output)
+		(at 57.3702 103.8897 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9948245b-1da8-4c01-9657-398239af9f1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3987 103.8897 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3-3"
+		(shape output)
+		(at 171.45 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d18cc16-5db7-407c-a10b-7f28c74f79fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.4785 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 57.3702 116.5897 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f44ff20-6b5b-4605-a225-c912fcd7dc60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.1935 116.5897 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0-5"
+		(shape output)
+		(at 62.23 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a96210b8-d596-4244-bc54-e433e707c93b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2585 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 228.6 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b90ae151-6ae4-4248-82d2-d22444138544")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4233 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 114.3 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d913abf7-2e23-4167-af2c-99a5a7a00379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1233 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 171.45 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d976b5b6-51ef-4271-9063-08fd1b70e471")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3-4"
+		(shape output)
+		(at 200.66 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df6b65af-763c-47e9-8929-400a189809e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.6885 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW4-3"
+		(shape output)
+		(at 143.51 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e579ec68-2488-4918-a50e-60aeff1af123")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5385 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0-1"
+		(shape output)
+		(at 57.3702 114.0497 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb67715c-6e05-456e-91ea-2b3173e2884e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3987 114.0497 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1-4"
+		(shape output)
+		(at 228.6 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec98ba53-d057-46b2-8905-c6fca9180f11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.6285 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2-5"
+		(shape output)
+		(at 34.29 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6af225a-5ac3-4910-be12-db6d43ca1e4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3185 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3-1"
+		(shape output)
+		(at 57.3702 106.4297 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7945a51-1c4f-43d4-b95e-d9ee6bf0d3bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3987 106.4297 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 43.4002 64.5197 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aecc1f7-d2dc-49fa-b2ff-f5d72bee4f3b")
+		(property "Reference" "D-1-2"
+			(at 45.9402 63.2496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 45.9402 65.7896 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 43.4002 64.5197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.4002 64.5197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 43.4002 64.5197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.4002 64.5197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.4002 64.5197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d684253-2257-48ee-bad8-dd884a96d6b0")
+		)
+		(pin "2"
+			(uuid "3b7e861c-eeb1-4de6-9bdb-1aee9fa3701d")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-1-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 48.26 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c76b805-5f22-4100-a695-d71051c9aa71")
+		(property "Reference" "D-5-0"
+			(at 50.8 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a1118d1-bfea-4a3d-972c-5210969afbd6")
+		)
+		(pin "2"
+			(uuid "c2613254-d8a1-406a-90f3-09e969bdfd1f")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-5-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1340f308-fe2b-40b2-b40d-7c01b43d7db2")
+		(property "Reference" "SW-3-3"
+			(at 162.56 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 162.56 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 162.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c823d15-6861-4364-bb2e-d2fd57519d5e")
+		)
+		(pin "2"
+			(uuid "c47ce693-3a09-44b9-a939-92c7555277df")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-3-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 53.34 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c2358b-c0ed-440a-9bcd-94d58f998608")
+		(property "Reference" "SW-5-1"
+			(at 53.34 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 53.34 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_socket_MX"
+			(at 53.34 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 53.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bd065c5-8ea5-46ba-bebc-f8ff3d7186a5")
+		)
+		(pin "2"
+			(uuid "0201eef7-3258-46c8-8003-aeec80673f72")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-5-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 43.4002 98.8097 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22bb87c3-3e92-4e38-a46f-04b996b37f74")
+		(property "Reference" "D-1-4"
+			(at 45.9402 97.5396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 45.9402 100.0796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 43.4002 98.8097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.4002 98.8097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 43.4002 98.8097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.4002 98.8097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.4002 98.8097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e96bcaf-56c2-486c-9ef5-5ae9c97ff24e")
+		)
+		(pin "2"
+			(uuid "075ff15d-2a5c-4bff-9e04-1a8956e3ed42")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-1-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25e85fbe-f3e9-4d31-aefe-d4e05932b464")
+		(property "Reference" "SW-3-1"
+			(at 162.56 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 162.56 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 162.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9fbf8fe-86d6-4ae5-8da3-abe695cfbc33")
+		)
+		(pin "2"
+			(uuid "aa84080e-2ff3-4f23-babc-c8267a05f0af")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-3-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 138.43 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f3fa22-cd9f-42b5-83d4-671e198803c0")
+		(property "Reference" "C3"
+			(at 139.065 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 139.065 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2b19bbf4-6629-43f4-abf5-03f91c0c60e7")
+		)
+		(pin "2"
+			(uuid "519a49b3-2149-4d0a-aa60-101f7eca2353")
+		)
+		(pin "3"
+			(uuid "9d672a59-00c1-474a-9e02-e74f9b148490")
+		)
+		(pin "1"
+			(uuid "1835ab76-ae52-45f7-a569-67979c84ee4f")
+		)
+		(pin "4"
+			(uuid "0a333cd3-aad7-4d2d-a334-f41ff345d3c9")
+		)
+		(pin "5"
+			(uuid "9b2bf524-a0b6-4dbd-8588-d3840a7713c3")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.4802 60.7097 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "270998d4-63dd-44dc-8b66-6a836fdaf358")
+		(property "Reference" "SW-1-2"
+			(at 48.4802 53.0897 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.4802 55.6297 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 48.4802 55.6297 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.4802 55.6297 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.4802 60.7097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b25222-867d-43fc-8954-e1151c49d3c5")
+		)
+		(pin "2"
+			(uuid "013438b5-ad87-45e7-aadc-afe3c8a6df70")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-1-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 43.4002 48.0097 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27138dbc-07c7-43ad-acdc-b9bd34a5b0c3")
+		(property "Reference" "D-1-1"
+			(at 45.9402 46.7396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 45.9402 49.2796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 43.4002 48.0097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.4002 48.0097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 43.4002 48.0097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.4002 48.0097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.4002 48.0097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5560501b-b9a5-4207-a6cc-68155534d644")
+		)
+		(pin "2"
+			(uuid "7fabadb7-27de-49ec-83cc-bdf4420836cf")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2873a757-34a9-4906-902c-0a5a2401b584")
+		(property "Reference" "SW-2-0"
+			(at 105.41 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 105.41 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8240bc0-92fa-4079-a252-aa0e57c1e428")
+		)
+		(pin "2"
+			(uuid "f0788b46-7a54-4666-aa93-739132b03575")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-2-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "287439b2-658d-4ea3-bc4b-731a357327ef")
+		(property "Reference" "SW-3-0"
+			(at 162.56 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 162.56 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 162.56 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ccc6cf6-423e-4296-bf60-535e8f639968")
+		)
+		(pin "2"
+			(uuid "6f1571b3-7f60-4edd-9b7a-8052ed7391c3")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-3-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ab9857-8792-46a3-9127-f768faf2b65c")
+		(property "Reference" "SW-2-4"
+			(at 105.41 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 105.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d63912a8-37fc-4c2e-8ddc-bcd1dd27e984")
+		)
+		(pin "2"
+			(uuid "9bcd9081-3159-4a9a-b27d-c41eaed719e8")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-2-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 43.4002 31.4997 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3485ee04-4c7e-4195-9084-9618c3d128f2")
+		(property "Reference" "D-1-0"
+			(at 45.9402 30.2296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 45.9402 32.7696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 43.4002 31.4997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.4002 31.4997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 43.4002 31.4997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.4002 31.4997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.4002 31.4997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b49d443f-5f3e-4774-9e21-8b77f73d95b6")
+		)
+		(pin "2"
+			(uuid "a28f1ac2-7bfa-408c-a1aa-bd73aab8c4f5")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-1-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.4802 78.4897 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bae8a94-a730-4181-8f6b-8a941f062040")
+		(property "Reference" "SW-1-3"
+			(at 48.4802 70.8697 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.4802 73.4097 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 48.4802 73.4097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.4802 73.4097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.4802 78.4897 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b57333e7-091a-4892-b499-ca30e7247b37")
+		)
+		(pin "2"
+			(uuid "47183bd9-e78f-4adf-9ab3-80ea5afe5cd4")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-1-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 48.26 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43eda73d-abda-45bc-91d5-bb6a8a547e67")
+		(property "Reference" "D-5-1"
+			(at 50.8 156.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 158.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 48.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 48.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c39104c2-b0ea-4b26-b14c-d4deef4cf7c0")
+		)
+		(pin "2"
+			(uuid "3b0380e9-0759-4884-8cb6-84aa5c55b139")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-5-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab3bd6f-202c-486b-b453-4af2b0322ea4")
+		(property "Reference" "SW-3-2"
+			(at 162.56 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 162.56 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 162.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9665f05d-9742-4c5a-8a4e-9c47f4ba20e4")
+		)
+		(pin "2"
+			(uuid "a3f7bcea-19bd-4647-8b0c-fe2d736905c3")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-3-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 195.58 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d4d3fb-bf85-4c60-baa0-c6d319bb76e0")
+		(property "Reference" "C4"
+			(at 196.215 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 196.215 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "55e5f8ba-d83b-43c2-b74a-0f838ff9df9d")
+		)
+		(pin "2"
+			(uuid "59b0d2be-3ccd-410d-9662-34e75a3ee452")
+		)
+		(pin "3"
+			(uuid "aec968c5-878e-4223-b7c6-d588ea799bdc")
+		)
+		(pin "1"
+			(uuid "86732f1b-ed83-46ac-828f-c0fb9a17fd88")
+		)
+		(pin "4"
+			(uuid "fb1fca18-94eb-4d40-a736-7fd70085cc43")
+		)
+		(pin "5"
+			(uuid "d4c9f0a9-da4e-41c8-bad5-6b1c34b0aea0")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6100fe6c-be65-472c-9205-deba7b62d077")
+		(property "Reference" "D-4-0"
+			(at 217.17 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04ec8e04-ed13-4e80-90a5-f4cd5dfcc2a3")
+		)
+		(pin "2"
+			(uuid "0aa6bb12-a431-4bca-85dc-d6d27a1b6a93")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-4-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 219.71 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a9b77b-cc59-4728-a6ec-7f1e9259d76e")
+		(property "Reference" "SW-4-0"
+			(at 219.71 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 219.71 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 219.71 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 219.71 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c48b762-6e93-48b6-a34d-4d672d0c3bdc")
+		)
+		(pin "2"
+			(uuid "eb4d5adc-a1d5-4359-a18f-c907d63ffb90")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-4-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0112c0-39bc-454a-bdee-29e4252165ac")
+		(property "Reference" "D-2-2"
+			(at 102.87 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 102.87 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 100.33 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 100.33 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b04c8a0-89c0-4b74-afc2-d6737e30dedc")
+		)
+		(pin "2"
+			(uuid "1db5722a-1f4b-485d-83c7-0e0a4d4be394")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-2-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 24.3502 111.5097 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6edc7882-db5c-4a59-978f-7c9653537a30")
+		(property "Reference" "C1"
+			(at 24.9852 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 24.9852 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+			(at 24.3502 111.5097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.3502 111.5097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 24.3502 111.5097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "347965c0-44b2-4483-bc52-6a5c38e5ae40")
+		)
+		(pin "2"
+			(uuid "b93cd328-3570-454a-a2df-0f0186f1ff51")
+		)
+		(pin "3"
+			(uuid "a4f27827-20ff-4cd5-981e-3c12e5fbe989")
+		)
+		(pin "1"
+			(uuid "0599c1ba-9c65-481b-b35c-44950ec5cd60")
+		)
+		(pin "4"
+			(uuid "c63cfaef-110c-41a6-9f95-03e64558eb5f")
+		)
+		(pin "5"
+			(uuid "70a767df-febe-49aa-af0c-eb9567f382b1")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7758c9c5-4b2c-4376-8e15-d52e0bcf74af")
+		(property "Reference" "D-2-0"
+			(at 102.87 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 102.87 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96602951-3c5f-4fa7-86b2-18d56b2476b9")
+		)
+		(pin "2"
+			(uuid "b42415c5-496b-4925-b5bb-f47946f1895e")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-2-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786094dc-dd2c-4c44-8def-daf974d61191")
+		(property "Reference" "D-2-4"
+			(at 102.87 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 102.87 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95ac9a42-ee58-45bd-af71-b3620f8a0ba6")
+		)
+		(pin "2"
+			(uuid "a1ce4ec5-0613-4105-8311-e65a9e3c276f")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-2-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 219.71 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f86c69e-2ef6-4252-9dcc-065953343a5c")
+		(property "Reference" "SW-4-1"
+			(at 219.71 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 219.71 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 219.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9601e15c-23a2-400c-a96b-af82a9474f84")
+		)
+		(pin "2"
+			(uuid "2b443c0d-bf14-4035-b099-fe8971bef009")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-4-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.4802 44.1997 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88586606-989c-4e39-a33e-d0e94e6c28ab")
+		(property "Reference" "SW-1-1"
+			(at 48.4802 36.5797 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.4802 39.1197 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 48.4802 39.1197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.4802 39.1197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.4802 44.1997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ad496f3-3587-40b7-8ced-9fad9386fd83")
+		)
+		(pin "2"
+			(uuid "42d49dd3-078d-4e69-a372-0d87719b3555")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 219.71 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1909fe-f2dc-4b95-bb31-6dc53b2c03b7")
+		(property "Reference" "SW-4-2"
+			(at 219.71 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 219.71 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 219.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d410a9c6-a6fb-4146-bc08-854a7a191691")
+		)
+		(pin "2"
+			(uuid "a901b575-0d2e-4ac0-b7da-e6c324a83172")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-4-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 53.34 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a32c0bdc-f842-49e9-b41a-a5ce050b5ce7")
+		(property "Reference" "SW-5-0"
+			(at 53.34 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 53.34 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_socket_MX"
+			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 53.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7a465f9-7963-4254-be06-2316907ba94a")
+		)
+		(pin "2"
+			(uuid "87f4ae4f-a7f6-4794-85d9-03cca1b8c915")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-5-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.4802 94.9997 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b384c4e3-7e78-487b-a989-38e9dbd70226")
+		(property "Reference" "SW-1-4"
+			(at 48.4802 87.3797 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.4802 89.9197 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 48.4802 89.9197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.4802 89.9197 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.4802 94.9997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "941b301f-d74e-48bc-a813-2f813da268b4")
+		)
+		(pin "2"
+			(uuid "1019a909-2db8-4b66-a323-eca2620f850d")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-1-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90d04d6-6803-4273-b3df-14a7d9e50838")
+		(property "Reference" "D-2-1"
+			(at 102.87 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 102.87 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb71ae1d-ad40-42c3-a615-2459dae640d2")
+		)
+		(pin "2"
+			(uuid "9d1eeca0-82da-402c-8cc0-01bcd8843a1b")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-2-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 29.21 182.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9fb7995-8616-41d0-af40-26b75db59c0e")
+		(property "Reference" "C5"
+			(at 29.845 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 29.845 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+			(at 29.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 29.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "67979108-efb8-4231-8905-d9026a5f0732")
+		)
+		(pin "2"
+			(uuid "c7ec9d46-ef53-48a0-b39b-bd68bb0a6d6f")
+		)
+		(pin "3"
+			(uuid "b5ad22f7-a071-4c70-a522-f9ba2825189b")
+		)
+		(pin "1"
+			(uuid "0db5d57b-6a59-4a83-8866-1a575d9d312d")
+		)
+		(pin "4"
+			(uuid "f1ebb029-f673-4af5-aa1e-b7dddd2aaf9a")
+		)
+		(pin "5"
+			(uuid "29cdc683-ca45-4e78-80c0-34f77da4851c")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb31c685-d8fb-4a48-9af3-e0420afccc09")
+		(property "Reference" "D-4-2"
+			(at 217.17 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 214.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c386886-9bfe-45e1-abc7-1f61a2cb3fff")
+		)
+		(pin "2"
+			(uuid "889d8104-91cf-47d5-8ed7-bfa3132b7cd7")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-4-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 81.28 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be695aef-4dad-4787-8acd-681be8f57e36")
+		(property "Reference" "C2"
+			(at 81.915 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 81.915 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:reversible JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+			(at 81.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 81.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "ee63a655-5af8-4fa9-b725-219b7afa8863")
+		)
+		(pin "2"
+			(uuid "852d7632-c41f-4b72-9a75-6f86523f8458")
+		)
+		(pin "3"
+			(uuid "47bc21d0-4976-4ea0-8aa8-96a92fcc098a")
+		)
+		(pin "1"
+			(uuid "9d239151-212b-41e7-bbb3-abc7b85b0959")
+		)
+		(pin "4"
+			(uuid "3632655e-4754-4b8f-975e-b9abc94ba7b9")
+		)
+		(pin "5"
+			(uuid "44f48ae6-04a7-406d-9db7-63c8689852aa")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb27ae8-26cc-4870-9bac-706b4540c0d3")
+		(property "Reference" "D-2-3"
+			(at 102.87 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 102.87 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "963bb9c9-7ec5-40c3-b86c-315ddb98840d")
+		)
+		(pin "2"
+			(uuid "4302bde0-4bce-4d76-b132-e9cfabbbabe3")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-2-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.4802 27.6897 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce3bd903-8f1a-40b5-a27b-496dee9a72f5")
+		(property "Reference" "SW-1-0"
+			(at 48.4802 20.0697 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.4802 22.6097 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 48.4802 22.6097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.4802 22.6097 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.4802 27.6897 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf50a01c-d426-4859-ac3c-da70c96436bf")
+		)
+		(pin "2"
+			(uuid "dd87f926-124a-480c-b534-3346012b47e2")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-1-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29be601-1ce7-40a3-8ffd-3a846bc46451")
+		(property "Reference" "SW-2-1"
+			(at 105.41 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa65247f-c1c4-4ff5-bd06-ce7d267ab4a0")
+		)
+		(pin "2"
+			(uuid "0d494a08-8371-4b34-a742-85e82a3e1084")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-2-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e6256c-80b3-496e-b214-eec264f02ffe")
+		(property "Reference" "D-4-1"
+			(at 217.17 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9996672-a7da-4ed8-aa99-b7730d866657")
+		)
+		(pin "2"
+			(uuid "4f768616-4359-4686-aa6a-bd0365509d4c")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-4-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 157.48 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ededede0-03a4-4cdc-8977-d1b7051cf9bd")
+		(property "Reference" "D-3-1"
+			(at 160.02 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 160.02 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 157.48 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 157.48 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1350c21a-b9e6-44f1-bb08-d811e0feb28c")
+		)
+		(pin "2"
+			(uuid "067bf68d-481b-4ddb-9b31-3d072d72253a")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-3-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 157.48 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee1e4674-ff4d-47e4-bbdc-a279871d05a8")
+		(property "Reference" "D-3-0"
+			(at 160.02 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 160.02 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "875ac559-9255-4301-adc2-94d524beac9d")
+		)
+		(pin "2"
+			(uuid "04dea774-646a-482f-ae85-2db692763c9f")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-3-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 43.4002 82.2997 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef0cdae2-0c56-46ff-8816-e669135a6d95")
+		(property "Reference" "D-1-3"
+			(at 45.9402 81.0296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 45.9402 83.5696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 43.4002 82.2997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.4002 82.2997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 43.4002 82.2997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.4002 82.2997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.4002 82.2997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fde89a12-a295-4a78-88aa-881806c93dc6")
+		)
+		(pin "2"
+			(uuid "b887e469-fc1e-48b8-894d-81977e4f44fd")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-1-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef779ea8-cf17-48c0-85d6-935cdb4be2ee")
+		(property "Reference" "SW-2-3"
+			(at 105.41 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 105.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41625d5a-57f2-47af-9e2c-9aab6f73ee44")
+		)
+		(pin "2"
+			(uuid "60616ddf-29f5-432b-8f33-2af6eba23af0")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-2-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d0bd4e-35ab-4ead-a575-8fe8ceee7325")
+		(property "Reference" "SW-2-2"
+			(at 105.41 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
+			(at 105.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34ee6465-e75c-4568-b53c-5bf372f86263")
+		)
+		(pin "2"
+			(uuid "0b882edc-5a4c-4c0d-87c1-9d3004a7581f")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "SW-2-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 157.48 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5151b72-031f-4cd8-9e31-731ffaae35f3")
+		(property "Reference" "D-3-2"
+			(at 160.02 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 160.02 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ef99839-2765-477f-ac1f-67bef5ec7037")
+		)
+		(pin "2"
+			(uuid "df9fff2b-edea-4b1c-a561-273dda347b92")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-3-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 157.48 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9326d13-9be2-4898-937d-a76b9d56574f")
+		(property "Reference" "D-3-3"
+			(at 160.02 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 160.02 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5560e1f4-0386-4afb-b58d-569204512436")
+		)
+		(pin "2"
+			(uuid "b970ed80-705c-42d9-8f52-c7783afa622d")
+		)
+		(instances
+			(project "asym_col_bundle_1"
+				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
+					(reference "D-3-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
