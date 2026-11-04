@@ -340,6 +340,8 @@ function renderModuleCard(m) {
 }
 
 function renderPalette() {
+  const palette = $('#palette');
+  const scrollTop = palette ? palette.scrollTop : 0;
   const root = $('#paletteSections');
   root.innerHTML = '';
   const sections = [
@@ -376,6 +378,7 @@ function renderPalette() {
   if (!shown) {
     root.innerHTML = `<p class="empty-note">No modules match “${escapeHtml(filterText)}”.</p>`;
   }
+  if (palette) palette.scrollTop = scrollTop;
 }
 
 function renderSlotColumn(c, opts) {
@@ -1201,6 +1204,11 @@ function flashToast(message, type = 'error') {
 /* ------------------------------------------------------------------------- */
 
 function renderAll() {
+  const board = $('#board');
+  const side = $('#side');
+  const boardScroll = board ? board.scrollTop : 0;
+  const sideScroll = side ? side.scrollTop : 0;
+
   const placement = computePlacement();
   renderPalette();
   renderBoard(placement);
@@ -1210,6 +1218,9 @@ function renderAll() {
   $('#mirrorToggle').checked = state.mirror;
   const presetSelect = $('#presetSelect');
   if (presetSelect) presetSelect.value = state.preset || 'custom';
+
+  if (board) board.scrollTop = boardScroll;
+  if (side) side.scrollTop = sideScroll;
 }
 
 function initPresets() {
