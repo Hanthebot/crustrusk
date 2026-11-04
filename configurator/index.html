@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crustrusk Configurator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">
+    <div class="mark" aria-hidden="true">C</div>
+    <div>
+      <h1>Crustrusk <span class="sub">Configurator</span></h1>
+      <p class="tagline">Modular split keyboard builder</p>
+    </div>
+  </div>
+  <div class="controls">
+    <label class="preset-picker">
+      <span>Preset</span>
+      <select id="presetSelect"></select>
+    </label>
+    <label class="toggle"><input type="checkbox" id="mirrorToggle"><span>Mirror preview</span></label>
+    <button id="resetBtn" class="btn ghost" title="Clear all slots">Reset</button>
+  </div>
+</header>
+
+<main id="layout">
+  <aside id="palette">
+    <div class="panel-head">
+      <h2>Modules</h2>
+      <span id="paletteCount" class="count"></span>
+    </div>
+    <input id="search" class="search" type="search" placeholder="Search columns, thumbs, peripherals…" autocomplete="off">
+    <div id="paletteSections"></div>
+    <p class="hint">Drag a module onto a connector, or click it to auto-place. The keyboard is symmetric — configure one side.</p>
+  </aside>
+
+  <section id="board">
+    <div class="board-head">
+      <div>
+        <h2>Board layout</h2>
+        <p class="board-sub">Eight module connectors · one side of the split</p>
+      </div>
+      <div id="boardSummary" class="summary-chips"></div>
+    </div>
+    <div id="boardCanvas"></div>
+    <div class="board-foot">
+      <span><i class="dot used"></i> placed module</span>
+      <span><i class="dot free"></i> empty connector</span>
+      <span><i class="dot conflict"></i> conflict</span>
+      <span class="board-foot-note">Rows are matrix rows; columns are connector columns.</span>
+    </div>
+  </section>
+
+  <aside id="side">
+    <nav id="tabs" role="tablist" aria-label="Inspector">
+      <button class="tab active" data-tab="pins" role="tab" aria-selected="true">Pins</button>
+      <button class="tab" data-tab="status" role="tab" aria-selected="false">Status</button>
+      <button class="tab" data-tab="export" role="tab" aria-selected="false">Export</button>
+    </nav>
+    <div id="panel-pins" class="panel active" role="tabpanel"></div>
+    <div id="panel-status" class="panel" role="tabpanel"></div>
+    <div id="panel-export" class="panel" role="tabpanel"></div>
+  </aside>
+</main>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="modules.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
