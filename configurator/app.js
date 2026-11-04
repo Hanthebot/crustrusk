@@ -67,6 +67,10 @@ function moduleBounds(m) {
   };
 }
 
+function round2(value) {
+  return Math.round(value * 100) / 100;
+}
+
 /* ------------------------------------------------------------------------- */
 /* State                                                                      */
 /* ------------------------------------------------------------------------- */
@@ -178,7 +182,7 @@ function computePlacement() {
       conflicts.push({ level: 'error', msg });
     }
     if (v.connector !== placed.conn) {
-      const msg = `${c.label}: ${v.name} has a ${CONFIG.connectors[v.connector].short} connector; the slot is set to ${conn.short}.`;
+      const msg = `${c.label}: ${v.name} uses an ${CONFIG.connectors[v.connector].short} connector; the slot is set to ${conn.short}.`;
       used.warnings.push(msg);
       warnings.push({ level: 'warn', msg });
     }
@@ -222,7 +226,7 @@ function computePlacement() {
       if (v.connector !== conn.id) {
         warnings.push({
           level: 'warn',
-          msg: `${v.name} has a ${CONFIG.connectors[v.connector].short} connector; the peripheral slot is set to ${conn.short}.`,
+          msg: `${v.name} uses an ${CONFIG.connectors[v.connector].short} connector; the peripheral slot is set to ${conn.short}.`,
         });
       }
     }
@@ -287,6 +291,7 @@ function renderModuleCard(m) {
   const card = el('div', 'module-card');
   card.draggable = true;
   card.dataset.vid = m.id;
+  card.dataset.pcb = m.pcb || '';
   card.tabIndex = 0;
   card.setAttribute('role', 'button');
   card.setAttribute('aria-label', `${m.name}. Click to auto-place or drag to a connector.`);
@@ -309,7 +314,7 @@ function renderModuleCard(m) {
   const note = el('div', 'module-note', m.note || '');
 
   card.append(top, meta, preview, note);
-  card.title = 'Click to auto-place, or drag onto a connector';
+  card.title = `${m.pcb || m.name}\nClick to auto-place, or drag onto a connector`;
 
   card.addEventListener('dragstart', (e) => {
     card.classList.add('dragging');
@@ -493,6 +498,33 @@ function renderHalf(label, columns, mirror, placement) {
   return block;
 }
 
+function renderMirrorPreview() {
+  const block = el('div', 'mirror-preview');
+  const head = el('div', 'half-head');
+  head.appendChild(el('span', 'half-label', 'Right half'));
+  head.appendChild(el('span', 'half-note', 'mirror preview · same modules, opposite hand'));
+  block.appendChild(head);
+
+  const row = el('div', 'mirror-row');
+  [...CONFIG.board.columns].reverse().forEach((c) => {
+    const placed = state.columns[c.id];
+    const v = placed ? moduleById(placed.v) : null;
+    const card = el('div', 'mirror-card' + (v ? ' filled' : ' empty'));
+    card.appendChild(el('div', 'mirror-ref', c.label));
+    if (v) {
+      const keyWrap = el('div', 'mirror-keymap');
+      renderKeys(keyWrap, v, { unit: 14, keySize: 12, pad: 4, mirror: true });
+      card.appendChild(keyWrap);
+      card.appendChild(el('div', 'mirror-name', v.name));
+    } else {
+      card.appendChild(el('div', 'mirror-empty', 'empty'));
+    }
+    row.appendChild(card);
+  });
+  block.appendChild(row);
+  return block;
+}
+
 function renderPeripheralZone(placement) {
   const block = el('div', 'peripheral-block');
   const head = el('div', 'peripheral-head');
@@ -601,13 +633,16 @@ function renderBoard(placement) {
 
   const halves = el('div', 'halves');
   halves.appendChild(renderHalf('Left half', CONFIG.board.columns, false, placement));
-  if (state.mirror) {
-    halves.appendChild(
-      renderHalf('Right half', [...CONFIG.board.columns].reverse(), true, placement)
-    );
-  }
   canvas.appendChild(halves);
+  if (state.mirror) canvas.appendChild(renderMirrorPreview());
   canvas.appendChild(renderPeripheralZone(placement));
+
+  const tips = el('div', 'board-tips');
+  tips.innerHTML = `
+    <div><strong>Connectors</strong> Each module uses one COLx connector. Thumb clusters can share any free COLx.</div>
+    <div><strong>Split</strong> Configure one side — the other half mirrors it. Enable “Mirror preview” to check the pair.</div>
+    <div><strong>Firmware</strong> Open the Export tab for QMK <code>config.h</code>, <code>info.json</code>, Vial and a starter keymap.</div>`;
+  canvas.appendChild(tips);
 
   const nKeys = placement.usedCols.reduce((sum, u) => sum + moduleKeys(u.v), 0);
   const chips = [
@@ -778,13 +813,15 @@ function renderStatus(placement) {
     .map((u) => parseInt(u.c.id.replace('col', ''), 10))
     .sort((a, b) => a - b);
   if (usedIdx.length) {
+    const gaps = [];
     for (let i = usedIdx[0]; i <= usedIdx[usedIdx.length - 1]; i++) {
-      if (!usedIdx.includes(i)) {
-        checks.push({
-          level: 'warn',
-          msg: `COL${i} is empty between used connectors; firmware still reserves matrix column ${i}.`,
-        });
-      }
+      if (!usedIdx.includes(i)) gaps.push(i);
+    }
+    if (gaps.length) {
+      checks.push({
+        level: 'warn',
+        msg: `Firmware still reserves matrix columns for unused connector${gaps.length === 1 ? '' : 's'} COL${gaps.join(', COL')}.`,
+      });
     }
   }
 
@@ -862,19 +899,37 @@ function genVialJson(p) {
   const n = generatedColumnCount(p);
   const keymap = [];
   const seen = new Set();
+  const maxColumnRows = Math.max(
+    0,
+    ...p.usedCols.filter((u) => u.v.type === 'column').map((u) => u.rows)
+  );
+  let xOffset = 0;
+
   CONFIG.board.columns.slice(0, n).forEach((c, ci) => {
     const placed = state.columns[c.id];
-    if (!placed) return;
-    const v = moduleById(placed.v);
-    if (!v || v.type === 'peripheral') return;
-    v.keys.forEach((key) => {
-      const id = `${key.row}:${ci}`;
-      if (seen.has(id)) return;
-      seen.add(id);
-      keymap.push([key.row, ci, 0, 0]);
-    });
+    const v = placed ? moduleById(placed.v) : null;
+    const bounds = v ? moduleBounds(v) : { minX: 0, maxX: 0, minY: 0, maxY: 0 };
+    const width = Math.max(1, bounds.maxX - bounds.minX + 1);
+
+    if (v && v.type !== 'peripheral') {
+      // Thumb clusters sit below the column rows in the Vial layout preview.
+      const yBase = v.type === 'thumb' ? maxColumnRows : 0;
+      v.keys.forEach((key) => {
+        const id = `${key.row}:${ci}`;
+        if (seen.has(id)) return;
+        seen.add(id);
+        keymap.push([
+          key.row,
+          ci,
+          round2(xOffset + (key.x - bounds.minX)),
+          round2(yBase + (key.y - bounds.minY)),
+        ]);
+      });
+    }
+    xOffset += width + 0.25;
   });
-  keymap.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+
+  keymap.sort((a, b) => a[3] - b[3] || a[2] - b[2] || a[0] - b[0] || a[1] - b[1]);
   const data = {
     name: 'Crustrusk',
     vendorId: '0x0000',
@@ -1039,7 +1094,7 @@ function placeColumn(slotId, vid) {
     return;
   }
   if (v.type === 'peripheral') {
-    placePeripheral(vid);
+    flashToast('Peripherals connect to the MP1 / MPEX1 connector below the board.', 'error');
     return;
   }
   const c = CONFIG.board.columns.find((x) => x.id === slotId);

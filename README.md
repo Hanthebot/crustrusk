@@ -61,7 +61,18 @@ Modular, adjustable column-staggered (split) keyboard project
 - currently, M2 screws & standoffs are used to fix the keyboard & adjust stagger.
 ### Building tips
 - it'd be easier to use SMD diodes as THT diodes' leg might be touching the switches. I cut legs tightly and it was fine.
-- web app for generating QMK config for various combinations are under way
+- a drag-and-drop web configurator for the modular PCBs lives in [`configurator/`](configurator/). It generates QMK/Vial files from the actual column, thumb and peripheral boards.
+
+### Web configurator
+
+```bash
+python3 -m http.server 8000
+# open http://localhost:8000/configurator/
+```
+
+It supports presets for common builds (default 3×7+3, Corne, Lily58-style,
+Sofle-style, Sweep-style, asymmetric pinky), live pin/conflict checking and
+QMK/Vial export. See [`configurator/README.md`](configurator/README.md).
 
 ## Inspirations
 - [Zebra](https://github.com/nezumee/zebra)
