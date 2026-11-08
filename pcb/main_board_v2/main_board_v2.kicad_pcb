@@ -1256,6 +1256,17 @@
 		(at 69.75 75.45)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC0"
+			(at 13.8 -0.8 0)
+			(layer "F.SilkS")
+			(uuid "a06e057b-d61d-4e6b-a463-104ea7d2b050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 0)
 			(layer "F.Fab")
@@ -1294,17 +1305,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "78a2f7b1-220e-4147-a83f-f2bb7a8003e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC0"
-			(at 13.8 -0.8 0)
-			(layer "F.SilkS")
-			(uuid "a06e057b-d61d-4e6b-a463-104ea7d2b050")
 			(effects
 				(font
 					(size 1 1)
@@ -2238,6 +2238,17 @@
 		(at 47.65 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC5"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "dff52d3b-b712-4c3e-8cfb-91b1fb079d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -2276,17 +2287,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "acfcb019-b1f0-40a9-ade6-69ca67f5c24d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC5"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "dff52d3b-b712-4c3e-8cfb-91b1fb079d42")
 			(effects
 				(font
 					(size 1 1)
@@ -3285,6 +3285,17 @@
 		(at 58.65 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC3"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "212995e1-2fa8-4b5d-b4d3-d17992a7d464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -3323,17 +3334,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8947239e-be8e-4dd7-af01-e0960a61a1c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC3"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "212995e1-2fa8-4b5d-b4d3-d17992a7d464")
 			(effects
 				(font
 					(size 1 1)
@@ -4267,6 +4267,17 @@
 		(at 36.599995 47.75 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC7"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "d96f13ed-0dd5-4315-88a2-5afed50dc977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -4305,17 +4316,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "996db9a8-bab5-46d1-a27e-1ead1e1d85b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC7"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "d96f13ed-0dd5-4315-88a2-5afed50dc977")
 			(effects
 				(font
 					(size 1 1)
@@ -5249,6 +5249,17 @@
 		(at 69.7 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC1"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "42322ea2-e426-47a3-be5e-9ba196a3c12c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -5287,17 +5298,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4d30520e-930a-4348-bc71-ceec7d0a4fcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC1"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "42322ea2-e426-47a3-be5e-9ba196a3c12c")
 			(effects
 				(font
 					(size 1 1)
@@ -7459,6 +7459,17 @@
 		(at 53.15 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC4"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "1949adad-c079-4293-aa26-13b90290e9bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -7497,17 +7508,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5b79fbf5-864f-4f80-8824-b641eba2be9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC4"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "1949adad-c079-4293-aa26-13b90290e9bb")
 			(effects
 				(font
 					(size 1 1)
@@ -12224,6 +12224,17 @@
 		(at 64.2 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC2"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "47c4b3b2-e184-4f43-8470-a9e51e620007")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -12262,17 +12273,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3aa7fb56-eeab-4101-b517-8a9f856951f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC2"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "47c4b3b2-e184-4f43-8470-a9e51e620007")
 			(effects
 				(font
 					(size 1 1)
@@ -13449,6 +13449,17 @@
 		(at 42.099998 47.7 -90)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MC6"
+			(at 13.8 -0.050005 270)
+			(layer "F.SilkS")
+			(uuid "72ef70a2-2115-43f0-b4af-2b625fdd8d66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 270)
 			(layer "F.Fab")
@@ -13487,17 +13498,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cfb86c21-a205-4a22-b7d5-81468e2f1722")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MC6"
-			(at 13.8 -0.050005 270)
-			(layer "F.SilkS")
-			(uuid "72ef70a2-2115-43f0-b4af-2b625fdd8d66")
 			(effects
 				(font
 					(size 1 1)
@@ -14496,6 +14496,17 @@
 		(at 93 81)
 		(descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
+		(property "Reference" "MP1"
+			(at -3.95 1.35 0)
+			(layer "F.SilkS")
+			(uuid "16a682c9-317a-4dc9-9b4a-7c1991070c8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Conn_01x06_Socket"
 			(at 5 4 0)
 			(layer "F.Fab")
@@ -14534,17 +14545,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4ec92232-4e8b-4aa7-a4d1-36d27e9b3075")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "MP1"
-			(at -3.95 1.35 0)
-			(layer "F.SilkS")
-			(uuid "16a682c9-317a-4dc9-9b4a-7c1991070c8f")
 			(effects
 				(font
 					(size 1 1)
@@ -16240,7 +16240,7 @@
 		(uuid "cf0da4bb-6cc2-4f3c-9a96-e32c3384e206")
 	)
 	(gr_line
-		(start 67.1 84.3)
+		(start 67.1 84.5)
 		(end 67.05 63.35)
 		(stroke
 			(width 0.05)
@@ -16250,8 +16250,8 @@
 		(uuid "f06dc50d-4c86-4499-bbaf-3b32e523b5a9")
 	)
 	(gr_line
-		(start 67.1 84.3)
-		(end 105.900002 84.3)
+		(start 67.1 84.5)
+		(end 105.900002 84.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -16270,7 +16270,7 @@
 		(uuid "61783b9c-1ba2-4fa3-bbfa-87eff3e15b99")
 	)
 	(gr_line
-		(start 105.900002 84.3)
+		(start 105.900002 84.5)
 		(end 105.900002 45.11)
 		(stroke
 			(width 0.05)

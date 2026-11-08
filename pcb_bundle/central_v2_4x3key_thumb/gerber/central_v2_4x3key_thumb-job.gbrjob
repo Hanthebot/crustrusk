@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-11-08T22:59:09+09:00"
+    "CreationDate": "2026-11-09T00:10:49+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "main_board_v2",
-      "GUID": "6d61696e-5f62-46f6-9172-645f76322e6b",
+      "Name": "central_v2_4x3key_thumb",
+      "GUID": "63656e74-7261-46c5-9f76-325f3478336b",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 75.15,
-      "Y": 39.265
+      "X": 101.4,
+      "Y": 100.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "main_board_v2-F_Cu.gbr",
+      "Path": "central_v2_4x3key_thumb-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-B_Cu.gbr",
+      "Path": "central_v2_4x3key_thumb-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-F_Paste.gbr",
+      "Path": "central_v2_4x3key_thumb-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-B_Paste.gbr",
+      "Path": "central_v2_4x3key_thumb-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-F_Silkscreen.gbr",
+      "Path": "central_v2_4x3key_thumb-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-B_Silkscreen.gbr",
+      "Path": "central_v2_4x3key_thumb-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "main_board_v2-F_Mask.gbr",
+      "Path": "central_v2_4x3key_thumb-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "main_board_v2-B_Mask.gbr",
+      "Path": "central_v2_4x3key_thumb-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "main_board_v2-Edge_Cuts.gbr",
+      "Path": "central_v2_4x3key_thumb-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
