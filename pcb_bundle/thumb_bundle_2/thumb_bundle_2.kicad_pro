@@ -676,7 +676,7 @@
         "uuid": "fa631881-f1cb-4578-af30-5432abc1d3e5"
       }
     ],
-    "used_designators": "C3,C5,D\\-0\\-1-9,SW\\-0\\-1-9",
+    "used_designators": "C1-3,C5,D\\-0\\-1-9,SW\\-0\\-1-9,D\\-1\\-1-4,SW\\-1\\-1-4,D\\-2\\-1-3,SW\\-2\\-1-3",
     "variants": []
   },
   "sheets": [
