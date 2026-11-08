@@ -1449,7 +1449,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1476,6 +1476,12 @@
 		(path "/733fbf12-12fb-4a63-a59d-582b22c3e990")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2278,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2305,6 +2311,12 @@
 		(path "/4f51a516-93ad-4bff-9b86-53e46b2cf109")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3764,7 +3776,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3791,6 +3803,12 @@
 		(path "/48ab1b8d-5e2b-4a7a-802f-cf142c8c6dc9")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10563,7 +10581,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10590,6 +10608,12 @@
 		(path "/c527a8d8-bb5c-436c-8cd8-0bf61742e453")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12833,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12860,6 +12884,12 @@
 		(path "/793319af-634e-46c5-8ee1-4aeac4567f6e")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13982,7 +14012,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14009,6 +14039,12 @@
 		(path "/2b6ffe01-8dd6-4d78-9db6-07a6f9611626")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14774,7 +14810,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14801,6 +14837,12 @@
 		(path "/f19fe497-6498-48f3-aae1-9715a9e3c5e0")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16925,7 +16967,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16952,6 +16994,12 @@
 		(path "/92c96ecd-5073-4c0f-8c78-5d27032dc19a")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21995,7 +22043,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22022,6 +22070,12 @@
 		(path "/78d62b51-63a2-4d70-904e-0c5a0d7e7c86")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26034,7 +26088,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26061,6 +26115,12 @@
 		(path "/4c2b0a1e-d0a0-4c92-afdc-96705959ce2c")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28320,7 +28380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28347,6 +28407,12 @@
 		(path "/c786eff9-1a78-4fc9-8119-9646ba3ba36e")
 		(sheetname "/")
 		(sheetfile "crustrusk.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37284,7 +37350,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4fde2cd8-8a33-4927-ad17-526746c76068")
 	)
-	(gr_text "Jump if right"
+	(gr_text "Jump if left"
 		(at 65.25 135.25 0)
 		(layer "F.SilkS")
 		(uuid "81fc4ba8-0b02-41f6-955b-49061f13d16b")
@@ -37295,7 +37361,7 @@
 			)
 		)
 	)
-	(gr_text "Jump if left"
+	(gr_text "Jump if right"
 		(at 65.25 135.25 0)
 		(layer "B.SilkS")
 		(uuid "29fa2170-fb74-43a6-94ab-dbf60c009509")
@@ -37484,92 +37550,36 @@
 		(uuid "7b8e3f68-3e22-48ec-82f2-dbb7942cc344")
 	)
 	(segment
-		(start 47.6 100.45)
-		(end 47.6 101.95)
+		(start 123.06 47.51)
+		(end 123.06 52.44)
 		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "48e8c88a-da10-4474-a5be-f0caed1b516b")
+		(layer "B.Cu")
+		(net "GND_P")
+		(uuid "03bd856d-f8ba-4c2f-993f-4f8b3d6a44c4")
 	)
 	(segment
-		(start 47.6 101.95)
-		(end 51.6 105.95)
+		(start 125.56 54.94)
+		(end 125.56 66.94)
 		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "7fa0c13e-11e6-4c38-81cd-d6e6a5e40133")
+		(layer "B.Cu")
+		(net "GND_P")
+		(uuid "2b371cdb-8ea9-4030-ba71-e390158f1732")
 	)
-	(via
-		(at 70.15 125.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "09fcf51e-9157-43da-af4a-438b866f2f90")
+	(segment
+		(start 120.6 45.05)
+		(end 123.06 47.51)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND_P")
+		(uuid "5f8db3ff-6c92-491a-8a30-984f80ff4e97")
 	)
-	(via
-		(at 60.4 122.95)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "0c8e1f1a-c773-4816-ac46-477384a412e9")
-	)
-	(via
-		(at 70.15 117.2)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "73ab705e-b6d9-4c71-ba97-a0c18783d256")
-	)
-	(via
-		(at 64.75 134.05)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "7aa741dc-bf50-488c-a03f-ee19fe43171c")
-	)
-	(via
-		(at 70.15 109.7)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "7df5bb47-1f22-4d4c-babd-b0801f287229")
-	)
-	(via
-		(at 70.15 114.35)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "99db63bf-05cd-4b7f-b06a-0d7ddfec5ed7")
-	)
-	(via
-		(at 62.25 127.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "b45221a0-c7b6-425f-9e71-ce640209a74d")
-	)
-	(via
-		(at 70.15 119.9)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "fc1567b3-8c34-4b86-9904-2556bfeeb66d")
+	(segment
+		(start 123.06 52.44)
+		(end 125.56 54.94)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND_P")
+		(uuid "af85b3af-b9d4-4dd2-9c95-9c5891971756")
 	)
 	(segment
 		(start 124.6 48.98)
@@ -38082,6 +38092,94 @@
 		(layer "B.Cu")
 		(net "MVCC")
 		(uuid "e7dd2a27-281f-47b4-8a05-59061716a83e")
+	)
+	(segment
+		(start 47.6 100.45)
+		(end 47.6 101.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "48e8c88a-da10-4474-a5be-f0caed1b516b")
+	)
+	(segment
+		(start 47.6 101.95)
+		(end 51.6 105.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "7fa0c13e-11e6-4c38-81cd-d6e6a5e40133")
+	)
+	(via
+		(at 70.15 125.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "09fcf51e-9157-43da-af4a-438b866f2f90")
+	)
+	(via
+		(at 60.4 122.95)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "0c8e1f1a-c773-4816-ac46-477384a412e9")
+	)
+	(via
+		(at 70.15 117.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "73ab705e-b6d9-4c71-ba97-a0c18783d256")
+	)
+	(via
+		(at 64.75 134.05)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "7aa741dc-bf50-488c-a03f-ee19fe43171c")
+	)
+	(via
+		(at 70.15 109.7)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "7df5bb47-1f22-4d4c-babd-b0801f287229")
+	)
+	(via
+		(at 70.15 114.35)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "99db63bf-05cd-4b7f-b06a-0d7ddfec5ed7")
+	)
+	(via
+		(at 62.25 127.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "b45221a0-c7b6-425f-9e71-ce640209a74d")
+	)
+	(via
+		(at 70.15 119.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "fc1567b3-8c34-4b86-9904-2556bfeeb66d")
 	)
 	(segment
 		(start 51.6 107.55)
@@ -40114,38 +40212,6 @@
 		(layer "B.Cu")
 		(net "Net-(D-2-0-A)")
 		(uuid "cb82f5ef-f7a6-4e0c-a489-e4abe31bf7de")
-	)
-	(segment
-		(start 123.06 47.51)
-		(end 123.06 52.44)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND_P")
-		(uuid "03bd856d-f8ba-4c2f-993f-4f8b3d6a44c4")
-	)
-	(segment
-		(start 125.56 54.94)
-		(end 125.56 66.94)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND_P")
-		(uuid "2b371cdb-8ea9-4030-ba71-e390158f1732")
-	)
-	(segment
-		(start 120.6 45.05)
-		(end 123.06 47.51)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND_P")
-		(uuid "5f8db3ff-6c92-491a-8a30-984f80ff4e97")
-	)
-	(segment
-		(start 123.06 52.44)
-		(end 125.56 54.94)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND_P")
-		(uuid "af85b3af-b9d4-4dd2-9c95-9c5891971756")
 	)
 	(zone
 		(net "GND")

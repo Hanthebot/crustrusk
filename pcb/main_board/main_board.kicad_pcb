@@ -87,7 +87,7 @@
 			(outputdirectory "../gerber/")
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "096580d2-59f4-4fdc-ae07-9fb089493030")
 		(at 51.6 105.95 180)
@@ -152,7 +152,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/733fbf12-12fb-4a63-a59d-582b22c3e990")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -676,7 +676,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 14 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -688,7 +688,7 @@
 			(uuid "b3d10d2c-c0f8-42b9-8d05-5e9e5f36c4d1")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 12 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -699,7 +699,7 @@
 			(uuid "a52eb6e7-d42d-44a2-a44e-c936858bbb20")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -710,7 +710,7 @@
 			(uuid "624a63a5-8034-443f-a188-b0e8a671ea83")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -721,7 +721,7 @@
 			(uuid "c7c06d24-52a5-428f-969a-2091a55d8f9f")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -732,7 +732,7 @@
 			(uuid "b0ea5328-71b2-428e-8f08-2541e263bc32")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -743,7 +743,7 @@
 			(uuid "2668e928-6004-4239-806a-c6c5c20c0cb6")
 		)
 		(pad "7" thru_hole oval
-			(at 12 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -754,7 +754,7 @@
 			(uuid "ab33c02a-a571-4597-a849-8cb556b9dd64")
 		)
 		(pad "8" thru_hole oval
-			(at 14 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -777,7 +777,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0b1a3fbc-15a7-40c6-92bb-60279d4b961d")
 		(at 61.05 106)
@@ -842,7 +842,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4f51a516-93ad-4bff-9b86-53e46b2cf109")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1286,7 +1286,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 10 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1298,7 +1298,7 @@
 			(uuid "91e494a7-cd12-4d1f-950b-01c6d07ed8d9")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0)
+			(at 8 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1309,7 +1309,7 @@
 			(uuid "e7bb0bc5-e3ea-4386-857d-721cdd4798cd")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0)
+			(at 6 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1320,7 +1320,7 @@
 			(uuid "340d7c51-25d0-4486-b9d9-6c65aa300e1f")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0)
+			(at 4 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1331,7 +1331,7 @@
 			(uuid "9b63dbbb-1c36-4c53-a463-28b97fc643a7")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0)
+			(at 2 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1342,7 +1342,7 @@
 			(uuid "b344543c-978d-4729-b9a6-ba820074e902")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0)
+			(at 0 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1365,7 +1365,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1e59862e-44b2-4069-87b8-6cb89d961c19")
 		(at 89.05 122.5 180)
@@ -1430,7 +1430,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/48ab1b8d-5e2b-4a7a-802f-cf142c8c6dc9")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1874,7 +1874,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1886,7 +1886,7 @@
 			(uuid "3c8a5240-32c2-4213-a6f4-3e197a7dfd99")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1897,7 +1897,7 @@
 			(uuid "0e5bec02-cb0b-439e-b725-d45322188a67")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1908,7 +1908,7 @@
 			(uuid "e89730f7-2e8b-4b8c-9b8e-6a599f647df2")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1919,7 +1919,7 @@
 			(uuid "ca47bd4d-41b9-4b87-a6ab-2c66231aec53")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1930,7 +1930,7 @@
 			(uuid "b08c74e5-6300-46eb-83e9-dce4fea34af2")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2018,7 +2018,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "600e96d8-76cc-4d6c-82d3-bf5b98557681")
 		(at 89.05 111.5 180)
@@ -2083,7 +2083,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c527a8d8-bb5c-436c-8cd8-0bf61742e453")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2539,7 +2539,7 @@
 			(uuid "be491a9b-3a38-400d-96ed-106ef17d6c90")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2550,7 +2550,7 @@
 			(uuid "e125719e-d4b0-49ea-b1b5-d1ee49c76cbc")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2561,7 +2561,7 @@
 			(uuid "ed4ad3e2-c0c7-4295-bcae-5925d60a9dcf")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2572,7 +2572,7 @@
 			(uuid "740d7432-e291-4db1-ba89-dca9729b6b41")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2583,7 +2583,7 @@
 			(uuid "16a36ac7-070b-469e-b0e4-369b00160b72")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -2606,7 +2606,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "743cd71d-844b-4e7a-abd7-2846206a927e")
 		(at 89.05 133.5 180)
@@ -2671,7 +2671,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/793319af-634e-46c5-8ee1-4aeac4567f6e")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3127,7 +3127,7 @@
 			(uuid "1e0f75f8-44e6-4382-9a52-42d4c8463035")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3138,7 +3138,7 @@
 			(uuid "d3b91541-334f-4480-901a-0431dbe27465")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3149,7 +3149,7 @@
 			(uuid "99000a2f-2566-485c-9865-f5fc9021b108")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3160,7 +3160,7 @@
 			(uuid "bb1a6186-60ee-4f21-a932-d58fc9dd1a08")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3171,7 +3171,7 @@
 			(uuid "cf18186a-4dae-46b4-a72c-b2b55bdac199")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3194,7 +3194,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "80ce1a0e-0701-46cf-b99d-0230642487f0")
 		(at 89.05 100.5 180)
@@ -3259,7 +3259,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2b6ffe01-8dd6-4d78-9db6-07a6f9611626")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3703,7 +3703,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3715,7 +3715,7 @@
 			(uuid "dc0598b4-b92a-4eae-96e3-c5673023cc06")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3726,7 +3726,7 @@
 			(uuid "414770f5-04f9-41e9-b734-be08d131f3e8")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3737,7 +3737,7 @@
 			(uuid "d6d69896-6bb8-42bc-85a9-dae6b1f686ec")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3748,7 +3748,7 @@
 			(uuid "a1c79aa4-8889-4ec6-8c3f-a64d5b1aa3de")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3759,7 +3759,7 @@
 			(uuid "63e1c44b-d2ac-4522-b74b-d9d974cc7be7")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -3847,7 +3847,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8af1f9e4-cc5d-4006-b179-125a2e8d1899")
 		(at 57.05 100.45)
@@ -3912,7 +3912,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f19fe497-6498-48f3-aae1-9715a9e3c5e0")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4436,7 +4436,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 14 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4448,7 +4448,7 @@
 			(uuid "7e6f267a-7854-4b8e-b36d-930fd46d27ad")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0)
+			(at 12 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4459,7 +4459,7 @@
 			(uuid "2a9b1fd0-9322-42c2-96de-638cdc8413ba")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0)
+			(at 10 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4470,7 +4470,7 @@
 			(uuid "191d84f6-3560-4962-9f28-f7dcfe4a2687")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0)
+			(at 8 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4481,7 +4481,7 @@
 			(uuid "66c3edaa-21a9-43d6-befb-dd2cab066537")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0)
+			(at 6 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4492,7 +4492,7 @@
 			(uuid "e9cd0a1a-fe07-480d-b60b-d546d1189225")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0)
+			(at 4 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4503,7 +4503,7 @@
 			(uuid "b13003dc-d1c9-43e2-bb42-cac5ae1d55dd")
 		)
 		(pad "7" thru_hole oval
-			(at 12 0)
+			(at 2 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4514,7 +4514,7 @@
 			(uuid "116cfff7-2d39-4a2f-ad10-f0ab8da8c983")
 		)
 		(pad "8" thru_hole oval
-			(at 14 0)
+			(at 0 0 180)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -4537,7 +4537,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a10a0849-f3bf-4da5-b68b-83659ca14887")
 		(at 89.05 117 180)
@@ -4602,7 +4602,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/92c96ecd-5073-4c0f-8c78-5d27032dc19a")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5046,7 +5046,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5058,7 +5058,7 @@
 			(uuid "1e8158fd-3cb0-4eac-a604-a06dc3910456")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5069,7 +5069,7 @@
 			(uuid "b7d5ba35-3d03-425c-a73f-970b2b27fee6")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5080,7 +5080,7 @@
 			(uuid "7e845c11-49ea-4d2a-81c0-b1b23a545937")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5091,7 +5091,7 @@
 			(uuid "93e8ff5d-641e-4448-bf9f-2448484dd128")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5102,7 +5102,7 @@
 			(uuid "763c2659-2c1c-41db-8d63-6e18191097db")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -5180,7 +5180,7 @@
 		)
 		(path "/bfc3e11f-169c-4b72-b389-38e709f5cc1b")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8908,7 +8908,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "aa8897e3-80e3-468a-bf34-ed8cf2e42a8c")
 		(at 89.05 106 180)
@@ -8973,7 +8973,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/78d62b51-63a2-4d70-904e-0c5a0d7e7c86")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9417,7 +9417,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9429,7 +9429,7 @@
 			(uuid "579df091-c645-4f2e-91b4-0b7cfb10672f")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9440,7 +9440,7 @@
 			(uuid "3940551e-e189-4b61-b65c-794b593930e9")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9451,7 +9451,7 @@
 			(uuid "8bc3650d-6132-4a9f-a1ca-ba66a5dfc238")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9462,7 +9462,7 @@
 			(uuid "6a417ee1-2081-4fa7-856b-8d4e3b6dbaf1")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9473,7 +9473,7 @@
 			(uuid "5efebd89-9677-48fa-a0da-a82370cef2cf")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -9549,7 +9549,7 @@
 		(property ki_fp_filters "Jack*")
 		(path "/0b30cdf7-2207-403f-b173-3752129c6015")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9739,7 +9739,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cc4d1ab8-609b-42a3-b691-6e8ba2bade44")
 		(at 89.05 128 180)
@@ -9804,7 +9804,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4c2b0a1e-d0a0-4c92-afdc-96705959ce2c")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10248,7 +10248,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10260,7 +10260,7 @@
 			(uuid "b70f53c9-0031-41af-8d48-679ad5b22d71")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10271,7 +10271,7 @@
 			(uuid "ceaa8473-f828-4091-93a8-cf5db8dfab46")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10282,7 +10282,7 @@
 			(uuid "9e77c771-eb39-401d-8789-a1cf82281786")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10293,7 +10293,7 @@
 			(uuid "2d363734-22bc-4915-856e-e88d427b5afe")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10304,7 +10304,7 @@
 			(uuid "139354df-cb3d-4006-83d8-f8ed99911b69")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10392,7 +10392,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+	(footprint "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "de00e61f-4d29-4cab-aa60-f5d3ef235d1f")
 		(at 47.6 100.45 180)
@@ -10457,7 +10457,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c786eff9-1a78-4fc9-8119-9646ba3ba36e")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10901,7 +10901,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 10 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10913,7 +10913,7 @@
 			(uuid "9868ebea-c9bd-4c3c-baa9-94f9f505d096")
 		)
 		(pad "2" thru_hole oval
-			(at 2 0 180)
+			(at 8 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10924,7 +10924,7 @@
 			(uuid "75da3bbf-f8ef-46c8-a4dd-9de46bd39c2f")
 		)
 		(pad "3" thru_hole oval
-			(at 4 0 180)
+			(at 6 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10935,7 +10935,7 @@
 			(uuid "e704fdc7-fd80-4e13-b7d1-1d91349f2818")
 		)
 		(pad "4" thru_hole oval
-			(at 6 0 180)
+			(at 4 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10946,7 +10946,7 @@
 			(uuid "88750df8-d8dd-48b6-b2cd-10d98d1c211f")
 		)
 		(pad "5" thru_hole oval
-			(at 8 0 180)
+			(at 2 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -10957,7 +10957,7 @@
 			(uuid "3d4c9e3e-0a90-4d7c-a9cb-eccf783f1c49")
 		)
 		(pad "6" thru_hole oval
-			(at 10 0 180)
+			(at 0 0)
 			(size 1.2 1.75)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -11037,7 +11037,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/39b2a025-a0f5-4c0e-b2ac-d3f6dac30521")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11244,7 +11244,7 @@
 		(property ki_fp_filters "Jack*")
 		(path "/a57320f3-6003-4ff6-b402-a74d462d76c3")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11499,7 +11499,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/4a9e69e3-713a-4344-bd61-09715bafe849")
 		(sheetname "/")
-		(sheetfile "crustrusk.kicad_sch")
+		(sheetfile "main_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11700,7 +11700,7 @@
 		(layer "Edge.Cuts")
 		(uuid "5add6dfd-bb78-4d06-b5a3-fdbdad6f47a4")
 	)
-	(gr_text "Jump if right"
+	(gr_text "Jump if left"
 		(at 65.25 135.25 0)
 		(layer "F.SilkS")
 		(uuid "81fc4ba8-0b02-41f6-955b-49061f13d16b")
@@ -11711,7 +11711,7 @@
 			)
 		)
 	)
-	(gr_text "Jump if left"
+	(gr_text "Jump if right"
 		(at 65.25 135.25 0)
 		(layer "B.SilkS")
 		(uuid "29fa2170-fb74-43a6-94ab-dbf60c009509")
@@ -11732,14 +11732,6 @@
 		(uuid "41885f83-5cf7-4f01-90e5-7d57b1aeed7d")
 	)
 	(segment
-		(start 47.6 100.45)
-		(end 47.6 101.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "MMISO{slash}SDA")
-		(uuid "48e8c88a-da10-4474-a5be-f0caed1b516b")
-	)
-	(segment
 		(start 37.6 109.6375)
 		(end 36.3275 110.91)
 		(width 0.2)
@@ -11754,14 +11746,6 @@
 		(layer "F.Cu")
 		(net "MMISO{slash}SDA")
 		(uuid "533b256d-db27-4686-98d3-4407fce7d148")
-	)
-	(segment
-		(start 47.6 101.95)
-		(end 51.6 105.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "MMISO{slash}SDA")
-		(uuid "7fa0c13e-11e6-4c38-81cd-d6e6a5e40133")
 	)
 	(segment
 		(start 39.6 104.85)
@@ -12194,6 +12178,22 @@
 		(layer "B.Cu")
 		(net "MVCC")
 		(uuid "e7dd2a27-281f-47b4-8a05-59061716a83e")
+	)
+	(segment
+		(start 47.6 100.45)
+		(end 47.6 101.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "48e8c88a-da10-4474-a5be-f0caed1b516b")
+	)
+	(segment
+		(start 47.6 101.95)
+		(end 51.6 105.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "7fa0c13e-11e6-4c38-81cd-d6e6a5e40133")
 	)
 	(via
 		(at 70.15 125.6)

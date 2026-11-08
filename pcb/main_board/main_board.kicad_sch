@@ -4423,7 +4423,7 @@
 			(uuid "39cb0c53-7717-450d-b1e2-7863f293ce5f")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "J1")
 					(unit 1)
@@ -4463,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4515,7 +4515,7 @@
 			(uuid "0741a5c2-9eae-41fa-92a9-71bc0f269e6d")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC1")
 					(unit 1)
@@ -4594,7 +4594,7 @@
 			(uuid "f034d071-4883-4f86-97d9-33f1250fce72")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "JP1")
 					(unit 1)
@@ -4634,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 200.66 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4686,7 @@
 			(uuid "66795e4e-0145-4db7-bea9-dcadcbe06e27")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC5")
 					(unit 1)
@@ -4765,7 +4765,7 @@
 			(uuid "6b2824c6-980d-4c3e-be60-b8584b0470a1")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "JP2")
 					(unit 1)
@@ -4805,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 200.66 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4857,7 @@
 			(uuid "97e38c80-6424-477a-a274-8f9df95c8278")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC6")
 					(unit 1)
@@ -4897,7 +4897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4949,7 +4949,7 @@
 			(uuid "de7fa584-98f1-4ec1-8d47-f69967c43e6f")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC0")
 					(unit 1)
@@ -4989,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
 			(at 34.29 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5047,7 +5047,7 @@
 			(uuid "efffdabf-a989-40d8-99cc-805e927d7921")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MPEX1")
 					(unit 1)
@@ -5087,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 119.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5139,7 +5139,7 @@
 			(uuid "39e5a5c6-0f98-414a-8a54-af48003fb337")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC2")
 					(unit 1)
@@ -5179,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 199.39 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -5231,7 +5231,7 @@
 			(uuid "a65f18c4-4946-4c00-b3f9-8b86669b3099")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC7")
 					(unit 1)
@@ -5271,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 119.38 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -5323,7 +5323,7 @@
 			(uuid "3700d4e2-fa01-45bb-88d3-433d18828c46")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC4")
 					(unit 1)
@@ -5411,7 +5411,7 @@
 			(uuid "2cdb4136-141d-4c1f-b298-e480cb30536d")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "J2")
 					(unit 1)
@@ -5554,7 +5554,7 @@
 			(uuid "a33bb831-4aeb-498c-a357-5b68e4d66e83")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MCU1")
 					(unit 1)
@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5646,7 +5646,7 @@
 			(uuid "e1fb36c0-78b3-4b49-9526-ea776a51afd7")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MC3")
 					(unit 1)
@@ -5686,7 +5686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5738,7 @@
 			(uuid "c1f42995-e056-44f4-a45e-05851b4ec70e")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MP1")
 					(unit 1)
@@ -5778,7 +5778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+		(property "Footprint" "crustrusk:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
 			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5836,7 +5836,7 @@
 			(uuid "d0a63f27-a2c0-4559-812b-4c2a16ec70f0")
 		)
 		(instances
-			(project "crustrusk"
+			(project "main_board"
 				(path "/9e72c485-61d0-44fa-96a5-46ca12df99d7"
 					(reference "MCEX0")
 					(unit 1)
