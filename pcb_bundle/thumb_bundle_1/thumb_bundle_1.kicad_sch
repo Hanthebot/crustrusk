@@ -710,12 +710,6 @@
 		)
 	)
 	(junction
-		(at 48.26 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15b3d6e5-ccb1-4ccc-b9ec-1428642bb239")
-	)
-	(junction
 		(at 95.25 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -883,12 +877,6 @@
 		(color 0 0 0 0)
 		(uuid "ec86f1bb-8d2d-4681-8441-c12f836a7494")
 	)
-	(junction
-		(at 58.42 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6142161-7acf-455a-b1a9-3787fcf56a05")
-	)
 	(wire
 		(pts
 			(xy 163.83 83.82) (xy 180.34 83.82)
@@ -1038,16 +1026,6 @@
 			(type default)
 		)
 		(uuid "3699234f-aea5-4178-94ca-71cba760c3bf")
-	)
-	(wire
-		(pts
-			(xy 48.26 167.64) (xy 62.23 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b984a7-0ce2-4ed6-bccf-86a9a49f3a07")
 	)
 	(wire
 		(pts
@@ -1411,16 +1389,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 143.51) (xy 58.42 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b772b4ea-af08-4299-b528-2e57ce30ff6b")
-	)
-	(wire
-		(pts
 			(xy 176.53 38.1) (xy 176.53 54.61)
 		)
 		(stroke
@@ -1441,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 160.02) (xy 58.42 177.8)
+			(xy 58.42 143.51) (xy 58.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1578,16 +1546,6 @@
 			(type default)
 		)
 		(uuid "f4b5184a-93d4-44f3-ac0d-b15933487d2b")
-	)
-	(wire
-		(pts
-			(xy 34.29 167.64) (xy 48.26 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f561b14a-2721-4749-8b35-0dd01e938dac")
 	)
 	(wire
 		(pts
@@ -2011,7 +1969,7 @@
 	)
 	(global_label "ROW3-4"
 		(shape output)
-		(at 62.23 167.64 0)
+		(at 34.29 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2021,7 +1979,7 @@
 		)
 		(uuid "74476281-8098-4263-8176-b0b355716a12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2585 167.64 0)
+			(at 45.3185 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,190 +2324,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 53.34 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "008fcb03-f15f-4efc-94d1-76362557a792")
-		(property "Reference" "SW-4-3"
-			(at 53.34 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 53.34 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "crustrusk:Kailh_hotswap_only_socket_MX_optional_reversible-MIRROR"
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 53.34 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a19840b-4ea8-417e-b790-e6dcfa09f621")
-		)
-		(pin "2"
-			(uuid "607ec53f-c4d3-479f-ab39-4417b679e657")
-		)
-		(instances
-			(project "thumb_bundle_1"
-				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
-					(reference "SW-4-3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 48.26 163.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03bad971-cd15-47b9-bbc1-166f5d3fbcc6")
-		(property "Reference" "D-4-3"
-			(at 50.8 162.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 50.8 165.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "crustrusk:Diode_TH_SMD_REVERSIBLE"
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa0f6efa-524c-465c-a544-8ca682091701")
-		)
-		(pin "2"
-			(uuid "7fa36e12-f946-4247-9911-f16ad21ed739")
-		)
-		(instances
-			(project "thumb_bundle_1"
-				(path "/fa631881-f1cb-4578-af30-5432abc1d3e5"
-					(reference "D-4-3")
-					(unit 1)
-				)
 			)
 		)
 	)
