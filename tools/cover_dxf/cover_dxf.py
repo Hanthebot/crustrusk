@@ -1234,7 +1234,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             suffix += "  [" + "; ".join(str(n) for n in notes) + "]"
         print(f"[{index}/{len(boards)}] {status:<8} {label}{suffix}")
 
-    if not args.no_preview and args.contact_sheet:
+    if not args.dry_run and not args.no_preview and args.contact_sheet:
         for verify in (False, True):
             sheet = build_contact_sheet(args.preview_dir, verify=verify)
             if sheet:
