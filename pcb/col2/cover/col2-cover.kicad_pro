@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "crustrusk.kicad_pro",
+    "filename": "col2-cover.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -527,7 +527,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "../gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -609,7 +609,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "참조"
+      "sort_field": "\ucc38\uc870"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -647,8 +647,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "crustrusk.kicad_sch",
-        "name": "crustrusk",
+        "filename": "col2-cover.kicad_sch",
+        "name": "col2-cover",
         "uuid": "9e72c485-61d0-44fa-96a5-46ca12df99d7"
       }
     ],
@@ -658,7 +658,7 @@
   "sheets": [
     [
       "9e72c485-61d0-44fa-96a5-46ca12df99d7",
-      "crustrusk"
+      "col2-cover"
     ]
   ],
   "text_variables": {},

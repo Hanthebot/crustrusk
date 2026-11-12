@@ -485,12 +485,13 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "custom"
+      "custom",
+      "crustrusk"
     ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "crustrusk.kicad_pro",
+    "filename": "col3-cover.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -526,8 +527,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "../gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -645,8 +647,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "crustrusk.kicad_sch",
-        "name": "crustrusk",
+        "filename": "col3.kicad_sch",
+        "name": "col3",
         "uuid": "9e72c485-61d0-44fa-96a5-46ca12df99d7"
       }
     ],
