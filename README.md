@@ -2,6 +2,8 @@
 
 Modular, adjustable column-staggered (split) keyboard project
 
+![Crustrusk image](imgs/crustrusk.jpg)
+
 ## Features
 - adjustable stagger / modular PCBs
 - implement up to 5x7+7 column stagger keyboard
