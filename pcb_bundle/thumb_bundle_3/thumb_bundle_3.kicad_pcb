@@ -233,8 +233,8 @@
 		(fp_poly
 			(pts
 				(xy 3.198528 -0.80029) (xy -3.201337 -0.800293) (xy -3.201342 -0.651428) (xy -3.053028 -0.651429)
-				(xy 3.050221 -0.65143) (xy 3.050219 0.649237) (xy -3.053027 0.649231) (xy -3.053028 -0.651429) (xy -3.201342 -0.651428)
-				(xy -3.201338 0.800712) (xy 3.198526 0.800707)
+				(xy 3.050221 -0.651429) (xy 3.050219 0.649237) (xy -3.053027 0.649231) (xy -3.053028 -0.651429)
+				(xy -3.201342 -0.651428) (xy -3.201338 0.800712) (xy 3.198526 0.800707)
 			)
 			(stroke
 				(width -0.000001)
@@ -3737,14 +3737,14 @@
 			)
 		)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "4f89b8ea-88b1-4d54-959c-8f2476a3cff1")
 		(at 43.932829 101.481663 -110)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at -0.000001 -0.499998 70)
+			(at 0 -0.5 250)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "623821ca-90d0-433e-94e8-e8d11e72110e")
@@ -3755,8 +3755,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0.000001 0.499998 70)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20ecb9b8-6a3e-4efe-95a4-baf730939452")
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71ea4f99-505b-4b35-ae39-793e3b539385")
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "795f5f34-96df-46ed-9ed1-b0a7fde99224")
@@ -3795,7 +3795,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -3807,7 +3807,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -3818,25 +3818,18 @@
 			(uuid "f6d83870-262d-4c8c-9cdb-2ad3f69aef8a")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.849998 0 250)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b867bc3c-1ec9-48b0-92cc-a81ad82a1b69")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 250)
+			(at -0.85 0 250)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "c57942e9-bae3-492f-a99b-f54a09960d84")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.849998 0 250)
+			(at 0.85 0 250)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "51704c8f-aefb-40f2-8cb5-b5df5d4558cc")
+			(uuid "b867bc3c-1ec9-48b0-92cc-a81ad82a1b69")
 		)
 		(embedded_fonts no)
 	)
@@ -4739,7 +4732,7 @@
 			(uuid "416b79e2-6210-4854-910e-7083e8021f31")
 		)
 		(fp_line
-			(start 7.620002 -3.81)
+			(start 7.620002 -3.809999)
 			(end 7.620002 -6.349995)
 			(stroke
 				(width 0.12)
@@ -4780,7 +4773,7 @@
 		)
 		(fp_line
 			(start 5.079999 -3.809999)
-			(end 7.620002 -3.81)
+			(end 7.620002 -3.809999)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5195,14 +5188,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "5a3771bb-d23f-416a-9e7f-2a78fd8b34d7")
 		(at 51.664343 69.159264 -94)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 86)
+			(at 0 -0.5 266)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "58a06498-56a5-47f1-9e7e-749d77e60a84")
@@ -5213,8 +5206,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 86)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32cc4ee3-fe78-4b11-8baa-eb602825f94c")
@@ -5226,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 86)
+			(at 0 0 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63dc4862-73cf-44f4-8f31-7402659f3a2a")
@@ -5238,7 +5231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 86)
+			(at 0 0 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d13e729-0842-45f7-bf93-985fd58f11e1")
@@ -5253,7 +5246,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -1.275002 -0.35) (xy 1.275001 -0.349999) (xy 1.275002 0.35) (xy -1.275001 0.349999)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -5265,7 +5258,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.275002 -0.35) (xy 1.275001 -0.349999) (xy 1.275002 0.35) (xy -1.275001 0.349999)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -5276,21 +5269,14 @@
 			(uuid "27174f1d-0842-4192-b2db-a02a7469a4ed")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.849999 0 266)
+			(at -0.85 0 266)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "fa03d2f5-1e74-4b39-861c-c3146d6acc88")
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0 266)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "8d7dbe43-ab39-42bd-8bae-ee335ba6ddb4")
-		)
-		(pad "" np_thru_hole circle
-			(at 0.849999 0 266)
+			(at 0.85 0 266)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
@@ -6247,7 +6233,7 @@
 			(uuid "9e8f69c4-20d8-4a3c-97e6-7cd6b8745cd4")
 		)
 		(fp_line
-			(start 7.620003 -3.809999)
+			(start 7.620003 -3.809998)
 			(end 7.620002 -6.349997)
 			(stroke
 				(width 0.12)
@@ -6258,7 +6244,7 @@
 		)
 		(fp_line
 			(start 5.079999 -3.810004)
-			(end 7.620003 -3.809999)
+			(end 7.620003 -3.809998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9024,7 +9010,7 @@
 			(uuid "2438d4b3-5948-4a30-8b6c-d5d790ea9a96")
 		)
 		(fp_line
-			(start 6.999998 5.999997)
+			(start 6.999998 5.999996)
 			(end 6.999999 6.999998)
 			(stroke
 				(width 0.15)
@@ -9044,7 +9030,7 @@
 			(uuid "5f038739-2e6a-4511-a553-1fae66c5ac2c")
 		)
 		(fp_line
-			(start 5.999997 -6.999998)
+			(start 5.999996 -6.999998)
 			(end 6.999998 -6.999999)
 			(stroke
 				(width 0.15)
@@ -9124,7 +9110,7 @@
 			(uuid "d669e764-a6d0-4463-b900-af5f8ab6020f")
 		)
 		(fp_line
-			(start -5.999997 6.999998)
+			(start -5.999996 6.999998)
 			(end -6.999998 6.999999)
 			(stroke
 				(width 0.15)
@@ -9144,7 +9130,7 @@
 			(uuid "f5a0e629-7fab-498e-8d55-8858287de9d2")
 		)
 		(fp_line
-			(start -7.000003 -6.604004)
+			(start -7.000003 -6.604005)
 			(end -6.999999 -6.999998)
 			(stroke
 				(width 0.15)
@@ -9196,7 +9182,7 @@
 			(uuid "8be215af-91e7-4e3a-8f81-b2e9b20de93b")
 		)
 		(fp_line
-			(start 6.999998 5.999997)
+			(start 6.999998 5.999996)
 			(end 6.999999 6.999998)
 			(stroke
 				(width 0.15)
@@ -9216,7 +9202,7 @@
 			(uuid "802d6ec8-d4ad-4d90-883a-732a603bc526")
 		)
 		(fp_line
-			(start 5.999997 -6.999998)
+			(start 5.999996 -6.999998)
 			(end 6.999998 -6.999999)
 			(stroke
 				(width 0.15)
@@ -9306,7 +9292,7 @@
 			(uuid "151cbcc8-ee0a-42c4-8003-5850eccd0b4c")
 		)
 		(fp_line
-			(start -5.999997 6.999998)
+			(start -5.999996 6.999998)
 			(end -6.999998 6.999999)
 			(stroke
 				(width 0.15)
@@ -9326,7 +9312,7 @@
 			(uuid "73bb357d-2fe6-49f2-a52b-d14c62101088")
 		)
 		(fp_line
-			(start -6.999998 -5.999997)
+			(start -6.999998 -5.999996)
 			(end -6.999999 -6.999998)
 			(stroke
 				(width 0.15)
@@ -9874,14 +9860,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "93f46b21-1a06-4dd3-8dbd-2c236bf12f44")
 		(at 46.198782 94.900852 -110)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at -0.000001 -0.499998 70)
+			(at 0 -0.5 250)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3aa33e26-28b3-4f27-b5d9-3fbfa5de8602")
@@ -9892,8 +9878,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0.000001 0.499998 70)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a89c38df-51a7-4c26-b740-d48dea66cdfc")
@@ -9905,7 +9891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bba4026e-559e-452f-b41e-c02079a37b5a")
@@ -9917,7 +9903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f15c19a5-d82d-4f29-adb8-2749f1dbfe1e")
@@ -9932,7 +9918,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -9944,7 +9930,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -9955,25 +9941,18 @@
 			(uuid "3c39cd98-f675-48d5-b3c6-dca14a40d405")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.849998 0 250)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "63fb13cb-c3d0-41ae-8708-17a8072cb061")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 250)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "370a49cf-ea4a-41cc-bee9-97af4fb689aa")
-		)
-		(pad "" np_thru_hole circle
-			(at 0.849998 0 250)
+			(at -0.85 0 250)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "ab4583d3-7560-429c-93a0-1736b1313c30")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 0 250)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "63fb13cb-c3d0-41ae-8708-17a8072cb061")
 		)
 		(embedded_fonts no)
 	)
@@ -10255,7 +10234,7 @@
 			(uuid "3a71813f-5461-4cb7-b511-7ca1fac54c8b")
 		)
 		(fp_line
-			(start -2.059991 2.319993)
+			(start -2.05999 2.319993)
 			(end -1.140005 2.320001)
 			(stroke
 				(width 0.12)
@@ -13063,14 +13042,14 @@
 			)
 		)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "ce59517a-d960-4ee8-b583-80c2a885ba3d")
 		(at 48.919548 86.90143 -110)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at -0.000001 -0.499998 70)
+			(at 0 -0.5 250)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b96939dd-ec28-419f-969b-a28cbfcf100a")
@@ -13081,8 +13060,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0.000001 0.499998 70)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fec2697c-12cd-4f95-9220-9506ebfd1849")
@@ -13094,7 +13073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "192d0362-56e6-4bd3-8a38-7428ad21a5a8")
@@ -13106,7 +13085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 70)
+			(at 0 0 250)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87fea039-d888-4f46-93f6-1dc6c206288e")
@@ -13121,7 +13100,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -13133,7 +13112,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.275001 -0.350001) (xy 1.275001 -0.35) (xy 1.275001 0.350001) (xy -1.275001 0.35)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -13144,25 +13123,18 @@
 			(uuid "ff2338ed-7967-40d5-883b-b401d2f51cb5")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.849998 0 250)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "50d7dae3-25a4-4837-b328-8469ec0923ca")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 250)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "e296e5b3-6968-4611-98fe-c3ab3b991e42")
-		)
-		(pad "" np_thru_hole circle
-			(at 0.849998 0 250)
+			(at -0.85 0 250)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "3600c10a-1a81-43bb-926f-b8dfa7b249a9")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 0 250)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "50d7dae3-25a4-4837-b328-8469ec0923ca")
 		)
 		(embedded_fonts no)
 	)
@@ -14959,7 +14931,7 @@
 			(uuid "b60460f7-39fd-42ff-8cf6-e6f455348d15")
 		)
 		(fp_line
-			(start 7.620003 -3.809999)
+			(start 7.620003 -3.809998)
 			(end 7.620002 -6.349997)
 			(stroke
 				(width 0.12)
@@ -14970,7 +14942,7 @@
 		)
 		(fp_line
 			(start 5.079999 -3.810004)
-			(end 7.620003 -3.809999)
+			(end 7.620003 -3.809998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -16830,7 +16802,7 @@
 		)
 		(fp_line
 			(start 5.079999 -3.810004)
-			(end 7.620003 -3.809999)
+			(end 7.620003 -3.809998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -16839,7 +16811,7 @@
 			(uuid "f9529509-3b99-4805-aff0-6daad347c91a")
 		)
 		(fp_line
-			(start 7.620003 -3.809999)
+			(start 7.620003 -3.809998)
 			(end 7.620002 -6.349997)
 			(stroke
 				(width 0.12)
@@ -19102,14 +19074,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "fee07365-6357-4667-99a3-ae7f2bf7cc25")
 		(at 52.349071 59.572383 -94)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 86)
+			(at 0 -0.5 266)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "192d7815-de06-4ee4-bca4-6850830fac8f")
@@ -19120,8 +19092,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 86)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5a70a64-72a3-45a2-b112-19856c3a4c6e")
@@ -19133,7 +19105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 86)
+			(at 0 0 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e299297-17f9-46d4-8f92-d270cb9d60cc")
@@ -19145,7 +19117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 86)
+			(at 0 0 266)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b34d482-5af1-48f5-8fc7-ba22dab2a70d")
@@ -19160,7 +19132,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -1.275002 -0.35) (xy 1.275001 -0.349999) (xy 1.275002 0.35) (xy -1.275001 0.349999)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -19172,7 +19144,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.275002 -0.35) (xy 1.275001 -0.349999) (xy 1.275002 0.35) (xy -1.275001 0.349999)
+				(xy -1.275 -0.35) (xy 1.275 -0.35) (xy 1.275 0.35) (xy -1.275 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -19183,21 +19155,14 @@
 			(uuid "a7180486-8722-4edd-9ac3-2cf108fb5066")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.849999 0 266)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6efe9066-4894-49ce-b104-6f3595970be0")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 266)
+			(at -0.85 0 266)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2208d11c-4f14-408c-945c-b7e1b9940739")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.849999 0 266)
+			(at 0.85 0 266)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
