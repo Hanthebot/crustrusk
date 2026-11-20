@@ -527,7 +527,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "../gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -617,7 +617,7 @@
         },
         {
           "group_by": false,
-          "label": "설명",
+          "label": "\uc124\uba85",
           "name": "Description",
           "show": false
         },
@@ -671,18 +671,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "col5.kicad_sch",
-        "name": "col5",
+        "filename": "col5-cover.kicad_sch",
+        "name": "col5-cover",
         "uuid": "9e72c485-61d0-44fa-96a5-46ca12df99d7"
       }
     ],
-    "used_designators": "D\\-1-4,SW\\-1-4",
+    "used_designators": "D\\-1-3,SW\\-1-3,SW\\-1\\-4,D\\-1\\-4",
     "variants": []
   },
   "sheets": [
     [
       "9e72c485-61d0-44fa-96a5-46ca12df99d7",
-      "col5"
+      "col5-cover"
     ]
   ],
   "text_variables": {},
