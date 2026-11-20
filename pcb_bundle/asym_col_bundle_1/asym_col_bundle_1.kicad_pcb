@@ -2378,14 +2378,14 @@
 			)
 		)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "0837957e-aecc-4437-bd8b-2653fbf8bd2c")
 		(at 92.349968 126.479992 90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f9240967-341c-4289-86e8-033053fa4b1d")
@@ -2396,8 +2396,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92e48493-311e-4fd1-81e2-2349b81dd9a7")
@@ -2434,29 +2434,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "f3f8ee61-b9fe-4648-8add-fa5ab8d4ab08")
+			(uuid "e1b97259-2cf5-4b45-8f0c-94c35e08244b")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6e00ff96-63a2-4964-98a0-b52480ac9e14")
+			(uuid "7dc58ffd-f83a-49fd-b44c-c98ebc0f1729")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 90)
@@ -2464,13 +2462,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "4c5cdee6-3177-43ef-93d5-a1d916b56e4d")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "cdf29392-7ef1-4754-aabc-906f11209cca")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 90)
@@ -9348,14 +9339,14 @@
 			)
 		)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "4727d5f5-9a3f-4e73-9b65-712c2af4cd76")
 		(at 92.390483 90.380013 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "78c8b01e-d521-4c84-b7e6-6a6812ab9962")
@@ -9366,8 +9357,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b0eb1bc-81bb-403e-9b53-c0465f62fd0a")
@@ -9379,7 +9370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18c46d1c-e575-42e0-a546-dcba0e000a01")
@@ -9391,7 +9382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e7e6750-e06e-4c42-8fe7-5ecc5c11cc52")
@@ -9404,29 +9395,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "58a6337e-f1c9-41b1-90c5-5c5dc760004b")
+			(uuid "2013e6f1-e917-4206-8255-0334a327edbb")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e37a6b15-5541-40e4-96ed-2a249baf17be")
+			(uuid "0dbcf8cf-b7a1-4eb0-a27b-0cf3ef192439")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -9434,13 +9423,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "4c4f2fea-46d8-4045-990c-84e364d7c7e8")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c34035ea-4153-4492-8b54-10d8adbdd81b")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -17453,14 +17435,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "8d9f3042-01af-4a0c-87fb-865d8ad9449d")
 		(at 92.390483 76.780009 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e31720b4-c9b3-448d-974d-95d1a90f2b95")
@@ -17471,8 +17453,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11a503ec-84fe-4eea-835e-f5ae1da1fd16")
@@ -17484,7 +17466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83f09ce9-e558-405b-ab9c-71cb43894333")
@@ -17496,7 +17478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5a7a82e-6672-475f-a965-7e210e7fc029")
@@ -17509,29 +17491,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "c80a92db-836d-4bd8-8242-e84297a45d4d")
+			(uuid "688e06f4-6e20-4d46-87c8-787ba9f9fdca")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e3ca6db9-1e98-415c-aa45-478ac6f54812")
+			(uuid "04b466da-14b7-4e50-8a06-df0ab68e1e17")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -17539,13 +17519,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e2ad0708-b573-4f0d-ad55-7b89664f6460")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "072dc5cc-0fe5-4708-a693-6246ef8eb7c1")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -17638,14 +17611,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "94f17a0e-b448-4e21-8fb8-98d815b371c4")
 		(at 53.310002 107.060008 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a85267eb-7a6a-4f1e-ac11-579421dd598b")
@@ -17656,8 +17629,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bb557ca-1965-44bc-9c98-0bbc225eb7e1")
@@ -17669,7 +17642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8315fbc9-0940-4b51-a1e8-a8f2a043ef99")
@@ -17681,7 +17654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d184c3a-0774-46d6-8f62-ac6343785d25")
@@ -17694,29 +17667,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "493c37d2-f87f-4435-861d-4513c6141159")
+			(uuid "2315f6d6-d31a-4823-8426-48a0e072ba29")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5cac139d-fb02-4dd7-9890-f77bd0f1d631")
+			(uuid "8eb0c7bc-a2dc-477d-a846-fb2623488b6f")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -17724,13 +17695,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "58d5aa0a-4321-4b6a-bb29-8e97910bdb0b")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2573ae71-4b37-460f-96cd-b6cd73e5dc6a")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -20114,14 +20078,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "a8c5aed9-a6fe-426c-baa6-2cd545c6af45")
 		(at 92.390483 63.180005 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2ca51d44-c7c3-4a1f-8cca-68e77a02e3a9")
@@ -20132,8 +20096,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e466932-8ac7-41c8-9ad3-019b7e0764bb")
@@ -20145,7 +20109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "923996c6-af32-4392-9c11-9f42226f7bc9")
@@ -20157,7 +20121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "770c4c54-d9b8-478c-ae5b-29d752f8bc28")
@@ -20170,29 +20134,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "9ecdebcb-6105-4c98-8420-e14a8552f813")
+			(uuid "3675b50e-eb14-4ff3-8eb2-811be0d6ab8e")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "51351c7e-a0b0-4e9a-8605-320708ab8acc")
+			(uuid "61aa1c76-593e-4792-b9cd-8b57c8213390")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -20200,13 +20162,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "31c1fe14-fc43-4a20-8151-984cc9403852")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b52cf728-2179-491d-a826-b84a74f829e7")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -20217,14 +20172,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "a9aec219-6353-4613-903c-964971039185")
 		(at 53.31 72.900001 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0790cdce-2e96-487e-a920-0b5ff381c092")
@@ -20235,8 +20190,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "922f456e-df71-4a04-8f0c-95b5fdb5149f")
@@ -20248,7 +20203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1ca50f3-3d70-4b21-b2ff-8ca5f7715279")
@@ -20260,7 +20215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b85880c1-2087-4444-a6e4-2fcd1f2b02d0")
@@ -20273,29 +20228,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "624276ba-373e-44f4-8c83-b94bed9f22b9")
+			(uuid "82d77318-7631-4530-bfcb-b86300d09d56")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "71cf1ec5-e8bb-4b77-8921-54c3b70f190f")
+			(uuid "ab7d0b89-df78-4695-a42d-331b88665396")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -20303,13 +20256,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "b9c4fd35-2388-4e98-aedd-2b15e119de17")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c6c0ea49-963c-44cf-8969-7765441fe631")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -20320,14 +20266,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "b624c6bd-6311-4ba9-b05c-d92ac9690e3e")
 		(at 53.31 100.100005 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d2a3753c-01bb-42d1-a6d1-8d143b42d5de")
@@ -20338,8 +20284,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05328a36-4188-486a-aad4-3e0e9ca7c854")
@@ -20351,7 +20297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de7b7989-4c76-4cdf-9eb4-4c6319cc2838")
@@ -20363,7 +20309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd2e4e48-c5ae-4f41-8a97-b8e0dd3fc8df")
@@ -20376,29 +20322,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "d2765a75-1b87-4d29-a6aa-9d12d31855fb")
+			(uuid "7c1f4dd2-be5f-4c4f-8aab-985fb2cf5d17")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "67e212ac-18ab-4b14-9237-dd7c7047ac42")
+			(uuid "334141eb-d3d8-47f5-aed8-d2f9ae1d097f")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -20406,13 +20350,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "f97dcf37-e2d7-4d0f-9f15-bc936a66bb61")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "46ba6825-82a9-49a1-b7df-ff132374299d")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -23849,14 +23786,14 @@
 			)
 		)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "cab2b249-cdc6-448a-994a-b3dd509a0f08")
 		(at 92.37 97.649978 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "55c0a5bf-e9c0-4085-8e10-114664cce63f")
@@ -23867,8 +23804,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33274960-9cef-45e4-98a5-1b148f9d3716")
@@ -23880,7 +23817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "776d55e3-aae0-4ab1-a4c7-33a5dd83568c")
@@ -23892,7 +23829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a5c1a1f-a436-4875-a1da-a3beb166a4ee")
@@ -23905,29 +23842,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "2e6b361c-e60c-4f0e-9b37-f5bee08782a9")
+			(uuid "4f4aeb06-9a82-4a4b-9391-70a4dde5614b")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "598a9b10-ba10-4802-89fb-91097b0b522e")
+			(uuid "16a4df59-5e48-4be1-a474-73fb71c79ee3")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -23935,13 +23870,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "ba7a632c-aa7d-4c33-96e6-8d81758b9817")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "ce3a1a73-ab9a-476b-9f21-68b80443e4c8")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
@@ -24886,14 +24814,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "de3171a1-7e2a-47e1-a1f3-a5038475ec14")
 		(at 92.370002 116.034995 90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "54a10acb-c804-4770-a5b9-9a5109e54241")
@@ -24904,8 +24832,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f35e6858-8d17-40ad-91c3-7f493c3428ab")
@@ -24942,29 +24870,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "7c301f14-563e-433f-8e5d-991b6d1425f8")
+			(uuid "815b8e91-c7b4-4380-a7f9-01ba8be7b7f7")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "efd188f0-0d93-4523-ae00-edd48caabd2d")
+			(uuid "56e4c017-4de3-4bb8-be9b-56cc77fc18c6")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 90)
@@ -24972,13 +24898,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "c85eef0a-8668-44ed-94ca-8eebd3c56081")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "8700adc3-9842-4bc9-94a4-c7e190fe160c")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 90)
@@ -24989,14 +24908,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Panelization:BreakLine_3h_D0.5mm_P0.85mm"
+	(footprint "Panelization:BreakLine_2h_D0.5mm_P1.7mm"
 		(layer "F.Cu")
 		(uuid "e115faf0-1afa-4434-8f9f-9fbd0afe30cf")
 		(at 53.31 86.500003 -90)
-		(descr "Break line, 3 holes/ 2.5mm")
+		(descr "Break line, 3 holes/ 2.5mm, room for traces")
 		(tags "mousebite break line edge stamp")
 		(property "Reference" "REF**"
-			(at 0 -0.499999 90)
+			(at 0 -0.5 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c713f819-0b7f-4f82-b738-209dc933b89a")
@@ -25007,8 +24926,8 @@
 				)
 			)
 		)
-		(property "Value" "BreakLine_3h_D0.5mm_P0.85mm"
-			(at 0 0.499999 90)
+		(property "Value" "BreakLine_2h_D0.5mm_P1.7mm"
+			(at 0 0.5 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ced46c4b-a896-4255-8daa-89a7a5707f6f")
@@ -25020,7 +24939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4a9f50d-50f3-45ca-bd5a-70924715b6eb")
@@ -25032,7 +24951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61a942b8-0560-4391-8ec5-ddfed04b6a3b")
@@ -25045,29 +24964,27 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "9fe494f4-5876-431e-9ef9-f50595603653")
+			(uuid "fb8b8536-3228-41a8-9a69-b3b33e308107")
 		)
-		(fp_poly
-			(pts
-				(xy -1.275001 -0.35) (xy 1.275001 -0.35) (xy 1.275001 0.35) (xy -1.275001 0.35)
-			)
+		(fp_rect
+			(start -1.275 -0.35)
+			(end 1.275 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "391624f6-c112-4556-8afe-bf5aed99c5a9")
+			(uuid "9d941b6f-7870-432e-b953-76f1d82694e9")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.85 0 270)
@@ -25075,13 +24992,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e34d6a40-e69b-417e-8417-3a6ca98f14c7")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2ef40eec-c2c8-4334-a53e-c01fd5d8d692")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.85 0 270)
